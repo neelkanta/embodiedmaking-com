@@ -56,19 +56,19 @@ body {
 }
 
 .carousel .item {
-    height: 500px;
+    height: 400px;
 }
 
 .carousel img {
     min-width: 100%;
-    height: 500px;
+    height: 400px;
 }
 
 .carousel-caption {
     background-color: transparent;
     position: static;
     max-width: 550px;
-    padding: 0 20px;
+    padding: 0 40px;
     margin-bottom: 100px;
 }
 
@@ -93,4 +93,81 @@ body {
 
 .venture h3 {
     font-weight: normal;
+}
+
+/* RESPONSIVE CSS
+-------------------------------------------------- */
+
+@media (max-width: 979px) {
+
+    .container.navbar-wrapper {
+        margin-bottom: 0;
+        width: auto;
+    }
+
+    .navbar-inner {
+        border-radius: 0;
+        margin: -20px 0;
+    }
+
+    #myCarousel {
+        margin-top: 0px;
+    }
+
+    .carousel .item {
+        height: 300px;
+    }
+
+    .carousel img {
+        width: auto;
+        height: 300px;
+    }
+
+    .carousel-caption {
+        width: 75%;
+        padding: 0 75px;
+        margin-bottom: 50px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 26px;
+    }
+
+    .carousel-caption .lead,
+    .carousel-caption .btn {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 767px) {
+    .carousel {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
+    .carousel .item {
+        height: 220px;
+    }
+
+    .carousel img {
+        width: auto;
+        height: 220px;
+    }
+
+    .carousel-caption {
+        width: 65%;
+        padding: 0 65px;
+        margin-bottom: 40px;
+    }
+
+    .carousel-caption h1 {
+        font-size: 20px;
+        font-weight: normal;
+    }
+
+    .carousel-caption .lead,
+    .carousel-caption .btn {
+        font-size: 16px;
+        font-weight: lighter;
+    }
 }
