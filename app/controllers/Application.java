@@ -16,7 +16,7 @@ public class Application extends Controller {
     }
 
     public static Result method() {
-        return ok(comingSoon.render("method"));
+        return ok(method.render());
     }
 
     public static Result vision() {
