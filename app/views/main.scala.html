@@ -1,5 +1,7 @@
 @(title: String)(content: Html)
 
+@import tags._
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
@@ -24,6 +26,7 @@
 
 <body>
 
+
 <div class="container navbar-wrapper">
 
     <div class="navbar navbar-inverse navbar-fixed-top">
@@ -34,20 +37,21 @@
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </a>
-                <a class="brand" href="#">Embodied Making</a>
+                <a class="brand" href="@{routes.Application.index()}">Embodied Making</a>
 
                 <div class="nav-collapse collapse">
                     <ul class="nav">
-                        <li class="active"><a href="#">Ventures</a></li>
-                        <li><a href="#">Vision</a></li>
-                        <li><a href="#">Method</a></li>
-                        <li><a href="#">Contact</a></li>
+                        @navLink(name="ventures")
+                        @navLink(name="method")
+                        @navLink(name="vision")
+                        @navLink(name="contact")
                     </ul>
 
-                    <ul class="nav pull-right">
-                        <li class="dropdown">
-                            <a href="#" class="dropdown-toggle" data-toggle="dropdown">
-                                <i class="icon-user icon-white"></i> Andr&eacute; Kampert <b class="caret"></b>
+                    <!--
+     <ul class="nav pull-right">
+         <li class="dropdown">
+             <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                 <i class="icon-user icon-white"></i> Andr&eacute; Kampert <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
                                 <li><a href="#"><i class="icon-pencil"></i> Edit profile</a></li>
@@ -57,14 +61,18 @@
                             </ul>
                         </li>
                     </ul>
-
+                    -->
                 </div>
             </div>
         </div>
     </div>
 </div>
 
-@content
+<div class="content-wrap">
+    <section name="content">
+        @content
+    </section>
+</div>
 
 <hr>
 
