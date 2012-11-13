@@ -19,6 +19,10 @@ public class Application extends Controller {
         return ok(method.render());
     }
 
+    public static Result patterns() {
+        return ok(patterns.render());
+    }
+
     public static Result vision() {
         return ok(comingSoon.render("vision"));
     }

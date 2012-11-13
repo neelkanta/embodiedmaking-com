@@ -11,6 +11,9 @@ GET     /ventures                   controllers.Application.ventures()
 # Method page
 GET     /method                     controllers.Application.method()
 
+# Patterns page
+GET     /patterns                   controllers.Application.patterns()
+
 # Vision page
 GET     /vision                     controllers.Application.vision()
 
