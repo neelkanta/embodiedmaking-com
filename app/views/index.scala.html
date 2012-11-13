@@ -3,7 +3,7 @@
     <!-- Carousel items -->
     <div class="carousel-inner">
         <div class="active item">
-            <img src='@routes.Assets.at("img/carrousel/method.jpg")' alt="Venure image">
+            <img src='@routes.Assets.at("img/carousel/method.jpg")' alt="Venure image">
 
             <div class="container">
                 <div class="carousel-caption">
@@ -16,14 +16,14 @@
         </div>
 
         <div class="item">
-            <img src='@routes.Assets.at("img/carrousel/ventures.jpg")' alt="Venure image">
+            <img src='@routes.Assets.at("img/carousel/ventures.jpg")' alt="Venure image">
 
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Sign up to participate</h1>
 
-                    <p class="lead">We believe in an open approach to our innovations. Like helping us to solve real
-                        problems, then why not participate?</p>
+                    <p class="lead">We believe in an open approach to our innovations. Like to help us solve real
+                        problems? Participate!</p>
                     <a class="btn btn-large btn-primary" href="@{routes.Application.vision()}">Learn more</a>
                 </div>
             </div>
@@ -98,4 +98,8 @@
         </div>
     </div>
 </div>
+
+<script type="text/javascript">
+    $('.carousel').carousel()
+</script>
 }
