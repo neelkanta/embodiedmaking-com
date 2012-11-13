@@ -130,15 +130,18 @@ section {
     color: white;
     text-align: left;
     text-shadow: 0 1px 3px rgba(0, 0, 0, .4), 0 0 30px rgba(0, 0, 0, .075);
-    background: #173f93;
-    background: -moz-linear-gradient(45deg, #006DCC 0%, #CCDCEE 100%);
-    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #CCDCEE), color-stop(100%, #6D3353));
-    background: -webkit-linear-gradient(45deg, #006DCC 0%, #CCDCEE 100%);
-    background: -o-linear-gradient(45deg, #006DCC 0%, #CCDCEE 100%);
-    background: -ms-linear-gradient(45deg, #006DCC 0%, #CCDCEE 100%);
-    background: linear-gradient(45deg, #006DCC 0%, #CCDCEE 100%);
-    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#006DCC', endColorstr = '#CCDCEE', GradientType = 1);
-}
+    background: #401062;
+    background: #05666D;
+    background: -moz-linear-gradient(45deg, #401062 0%, #05666D 100%);
+    background: -webkit-gradient(linear, left bottom, right top, color-stop(0%, #05666D), color-stop(100%, #6D3353));
+    background: -webkit-linear-gradient(45deg, #401062 0%, #05666D 100%);
+    background: -o-linear-gradient(45deg, #401062 0%, #05666D 100%);
+    background: -ms-linear-gradient(45deg, #401062 0%, #05666D 100%);
+    background: linear-gradient(45deg, #401062 0%, #05666D 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr = '#401062', endColorstr = '#05666D', GradientType = 1);
+    -webkit-box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);
+    -moz-box-shadow: inset 0 3px 7px rgba(0,0,0,.2), inset 0 -3px 7px rgba(0,0,0,.2);
+    box-shadow: inset 0 3px 7px rgba(0, 0, 0, .2), inset 0 -3px 7px rgba(0, 0, 0, .2);}
 
 .bs-method-sidenav.affix {
     top: 30px;
