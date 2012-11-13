@@ -6,7 +6,9 @@
             <p>@text</p>
         </div>
 
-        <img class="img-rounded" src='@routes.Assets.at("img/method/" + slide + ".jpg")' alt="@slide">
+        @if(slide != "") {
+            <img class="img-rounded" src='@routes.Assets.at("img/method/" + slide + ".jpg")' alt="@slide">
+        }
     </div>
 </li>
 <li class="span3">
