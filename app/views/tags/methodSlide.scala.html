@@ -1,0 +1,14 @@
+@(slide: String)(text: Html)(note: Html)
+
+<li class="span6">
+    <div class="thumbnail">
+        <div class="caption">
+            <p>@text</p>
+        </div>
+
+        <img class="img-rounded" src='@routes.Assets.at("img/method/" + slide + ".png")' alt="@slide">
+    </div>
+</li>
+<li class="span3">
+    <p>@note</p>
+</li>
