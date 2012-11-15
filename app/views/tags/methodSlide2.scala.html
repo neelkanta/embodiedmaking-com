@@ -1,14 +1,14 @@
 @(slide: String)(text: Html)(imgText: Html)(note: Html)
 
+<!-- TODO Get rid of this duplication  -->
 <li class="span6">
     <div class="thumbnail">
         <div class="caption">
             @text
         </div>
 
-        @if(slide != "") {
-            <img class="img-rounded" src='@routes.Assets.at("img/method/" + slide + ".jpg")' alt="@slide">
-        }
+        <img class="img-rounded" src='@routes.Assets.at("img/method/" + slide + ".jpg")' alt="@slide">
+        @imgText
     </div>
 </li>
 <li class="span3">
