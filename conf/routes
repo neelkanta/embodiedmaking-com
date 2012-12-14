@@ -3,22 +3,22 @@
 # ~~~~
 
 # Home page
-GET     /                           controllers.Application.index()
+GET     /                           controllers.Application.index
 
 # Ventures page
-GET     /ventures                   controllers.Application.ventures()
+GET     /ventures                   controllers.Application.ventures
 
 # Method page
-GET     /method                     controllers.Application.method()
+GET     /method                     controllers.Application.method
 
 # Patterns page
-GET     /patterns                   controllers.Application.patterns()
+GET     /patterns                   controllers.Application.patterns
 
 # Vision page
-GET     /vision                     controllers.Application.vision()
+GET     /vision                     controllers.Application.vision
 
 # Contact page
-GET     /contact                    controllers.Application.contact()
+GET     /contact                    controllers.Application.contact
 
 # Map static resources from the /public folder to the /assets URL path
 GET     /assets/*file               controllers.Assets.at(path="/public", file)
