@@ -1,27 +1,40 @@
 @(patterns: List[Pattern])
 
-@import helper._
+@import tags._
 
-@main("Coming soon") {
-<header class="jumbotron subhead">
+@main("Patterns") {
+
+    <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
+        <div class="container">
+            <h1>Patterns</h1>
+
+            <p class="lead">A Product Lifecycle Management Pattern Language</p>
+        </div>
+    </header>
+
     <div class="container">
-        <h1>Patterns</h1>
+        <div class="row">
+            <div class="span12">
+                <section id="overview">
+                    <ul class="thumbnails">
+                        @patterns.map { pattern =>
+                            <li class="span3">
+                                <a href="#" class="pattern thumbnail">
+                                    <div class="caption pagination-centered"><strong>@pattern.title</strong></div>
+                                    <div class="pagination-centered">&diams; &diams; &diams;</div>
+                                    <div class="caption">@pattern.summary</div>
+                                </a>
+                            </li>
+                        }
+                    </ul>
+                </section>
+            </div>
 
-        <p class="lead">A Product Lifecycle Management Pattern Language</p>
+            to be continued...
+        </div>
     </div>
-</header>
 
-<div class="container">
-    <h1>
-        <small>Coming soon</small>
-    </h1>
-
-    <ul>
-    @patterns.map { pattern =>
-        <li>
-            @pattern.title
-        </li>
-    }
-    </ul>
-</div>
+<script type="text/javascript">
+    $(document).ready(equalHeight($(".thumbnail"))); // TODO [AK] does not play nicely with responsive css
+</script>
 }

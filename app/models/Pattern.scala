@@ -1,7 +1,7 @@
 package models
 
 import java.util.Scanner
-import java.io.InputStream
+import java.io.File
 
 case class Pattern(title: String = "",
                    summary: String = "",
@@ -12,12 +12,21 @@ case class Pattern(title: String = "",
 
 object Pattern {
   def all(): List[Pattern] = {
-    val inputStream: InputStream = getClass.getResourceAsStream("/patterns/plm/Aware_and_Integral_Instances.txt")
-    val scanner: Scanner = new Scanner(inputStream)
-    scanner.useDelimiter("\n\n")
+    val folder: File = new File(getClass.getResource("/patterns/plm/").toURI)
+    folder.listFiles.map(file => {
+      val scanner: Scanner = new Scanner(file).useDelimiter("\n\n")
 
-    val contents: String = scanner.next
+      try {
+        val title: String = if (scanner.hasNext) scanner.next() else ""
+        val summary: String = if (scanner.hasNext) scanner.next() else ""
+        val problem: String = if (scanner.hasNext) scanner.next() else ""
+        val solution: String = if (scanner.hasNext) scanner.next() else ""
+        val patternLanguage: String = if (scanner.hasNext) scanner.next() else ""
 
-    List(new Pattern(title = contents))
+        new Pattern(title, summary, problem, solution, patternLanguage)
+      } finally {
+        scanner.close()
+      }
+    }).toList
   }
 }

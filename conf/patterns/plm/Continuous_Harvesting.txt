@@ -1,0 +1,3 @@
+Continuous Harvesting
+
+A product, once planted, is harvested continuously. In projects, it would be forgotten once planted.
