@@ -16,7 +16,6 @@ object Pattern {
   def all(): List[Pattern] = {
 
     getFiles().map(filename => {
-      println(filename)
       val stream: InputStream = getInputStream(filename)
       try {
         val scanner: Scanner = new Scanner(stream).useDelimiter("\n\n")
