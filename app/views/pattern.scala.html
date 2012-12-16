@@ -38,7 +38,7 @@
                         @Html({
                             var patternLanguage: String = pattern.patternLanguage
                             patterns.foreach(p => p.synonyms.foreach(s => {
-                                patternLanguage = patternLanguage.replaceAll("(" + s + ")", "<a href='" + {"/patterns/"} + p.id + "'>$1</a>")
+                                patternLanguage = patternLanguage.replaceAll(s, "<a href='" + {"/patterns/"} + p.id + "'>" + s + "</a>")
                             }))
                             patternLanguage
                         })
