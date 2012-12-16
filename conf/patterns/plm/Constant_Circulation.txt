@@ -1,3 +1,9 @@
 Constant Circulation
 
 Always have a few new products being introduced as a few products are being retired.
+
+Given the virtual nature of telecommunications products, it becomes possible to easily release several variations of the same product with different pricing structures for customers to create product diversity. Consequently, most telecommunications operators tend to have large volume of products, regardless of whether products are counted on the basis of distinct types of commercial offerings or on the basis of underlying enabling technology. The boundaries and distinctions between products are often difficult to comprehend, whether they exist in commercial catalogs, information systems such as customer-relationship management systems, or in network elements like switches. The introduction of new products becomes difficult due to the capacity constraints from operating existing products.
+
+Therefore create constant circulation where as a few products are being introduced, others are being removed. Maintain the configuration and implementation of individual products as distinctly as possible in order to reduce complexity in their removal. Avoid the merger of many products into a single product line where the distinctions between products are lost, and maintain distinctions between high performing products and poorly performing products.
+
+Have a Few Skilled Gardeners tend to products Planted in a Single Garden, while constantly Clearing Withering Products and introducing new products with Growth Supports that receive Shade From Others.

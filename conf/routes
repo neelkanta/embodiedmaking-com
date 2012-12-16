@@ -13,6 +13,7 @@ GET     /method                     controllers.Application.method
 
 # Patterns page
 GET     /patterns                   controllers.Application.patterns
+GET     /patterns/:id               controllers.Application.pattern(id: String)
 
 # Vision page
 GET     /vision                     controllers.Application.vision

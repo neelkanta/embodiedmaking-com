@@ -1,0 +1,43 @@
+@(patterns: List[Pattern], pattern: Pattern)
+
+@import tags._
+
+@main(pattern.title) {
+
+    <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
+        <div class="container">
+            <h1>Patterns</h1>
+
+            <p class="lead">@pattern.title</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="span3 bs-method-sidebar">
+                <ul class="nav nav-list bs-method-sidenav affix-top" data-spy="affix" data-offset-top="150">
+                @patterns.map { pattern =>
+                    <li><a href='@{"/patterns/"}@pattern.id'>@pattern.title</a></li>
+                }
+                </ul>
+
+                to be continued...
+            </div>
+
+            <div class="span9">
+                <section id="overview">
+                    <div class="page-header">
+                        <h1><small>@pattern.title</small></h1>
+                    </div>
+
+                    <div class="span9 pattern">
+                        <p class="pagination-centered"><img src='@routes.Assets.at("img/patterns/plm/" + pattern.id + ".jpg")' alt="@pattern.title"></p>
+                        <p>@pattern.problem</p>
+                        <p>@pattern.solution</p>
+                        <p>@pattern.patternLanguage</p>
+                    </div>
+                </section>
+            </div>
+        </div>
+    </div>
+}

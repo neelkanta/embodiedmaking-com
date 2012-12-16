@@ -21,6 +21,10 @@ object Application extends Controller {
     Ok(views.html.patterns.render(Pattern.all()))
   }
 
+  def pattern(id: String) = Action {
+    Ok(views.html.pattern.render(Pattern.all(), Pattern.get(id)))
+  }
+
   def vision = Action {
     Ok(views.html.comingSoon.render("vision"))
   }

@@ -10,3 +10,5 @@ Deep_Roots
 Exotic_Plants
 Few_Skilled_Gardeners
 Fortified_Town
+Growth_Supports
+Plant_in_a_Single_Garden

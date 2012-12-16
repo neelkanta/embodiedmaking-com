@@ -154,10 +154,14 @@ section {
     background-color: white;
 }
 
-/* METHOD
+/* Pattern
 -------------------------------------------------- */
 .pattern.thumbnail {
     text-decoration: none;
+}
+
+.pattern img {
+    width: 350px;
 }
 
 /* THUMBNAILS
