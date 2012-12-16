@@ -7,3 +7,5 @@ Given the virtual nature of telecommunications products, it becomes possible to 
 Therefore create constant circulation where as a few products are being introduced, others are being removed. Maintain the configuration and implementation of individual products as distinctly as possible in order to reduce complexity in their removal. Avoid the merger of many products into a single product line where the distinctions between products are lost, and maintain distinctions between high performing products and poorly performing products.
 
 Have a Few Skilled Gardeners tend to products Planted in a Single Garden, while constantly Clearing Withering Products and introducing new products with Growth Supports that receive Shade From Others.
+
+Constantly Circulate

@@ -11,7 +11,8 @@ case class Pattern(id: String = "",
                    summary: String = "",
                    problem: String = "",
                    solution: String = "",
-                   patternLanguage: String = "")
+                   patternLanguage: String = "",
+                   synonyms: List[String] = Nil)
 
 object Pattern {
   def all(): List[Pattern] = {
@@ -30,8 +31,9 @@ object Pattern {
       val problem: String = if (scanner.hasNext) scanner.next() else ""
       val solution: String = if (scanner.hasNext) scanner.next() else ""
       val patternLanguage: String = if (scanner.hasNext) scanner.next() else ""
+      val synonyms: List[String] = if (scanner.hasNext) title :: scanner.next().split(",").toList else List(title)
 
-      new Pattern(id, title, summary, problem, solution, patternLanguage)
+      new Pattern(id, title, summary, problem, solution, patternLanguage, synonyms)
     } finally {
       stream.close()
     }
