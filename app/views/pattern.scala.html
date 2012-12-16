@@ -15,13 +15,13 @@
     <div class="container">
         <div class="row">
             <div class="span3 bs-method-sidebar">
-                <ul class="nav nav-list bs-method-sidenav affix-top" data-spy="affix" data-offset-top="150">
+                <ul class="nav nav-list bs-method-sidenav">
                 @patterns.map { pattern =>
                     <li><a href='@{"/patterns/"}@pattern.id'>@pattern.title</a></li>
                 }
+                    <li>to be continued...</li>
                 </ul>
 
-                to be continued...
             </div>
 
             <div class="span9">
@@ -34,7 +34,14 @@
                         <p class="pagination-centered"><img src='@routes.Assets.at("img/patterns/plm/" + pattern.id + ".jpg")' alt="@pattern.title"></p>
                         <p>@pattern.problem</p>
                         <p>@pattern.solution</p>
-                        <p>@pattern.patternLanguage</p>
+
+                        @Html({
+                            var patternLanguage: String = pattern.patternLanguage
+                            patterns.foreach(p => {
+                                patternLanguage = patternLanguage.replaceAll(p.title, "<a href='" + {"/patterns/"} + p.id + "'>" + p.title + "</a>")
+                            })
+                            patternLanguage
+                        })
                     </div>
                 </section>
             </div>

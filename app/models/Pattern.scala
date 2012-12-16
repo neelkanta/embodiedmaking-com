@@ -11,8 +11,7 @@ case class Pattern(id: String = "",
                    summary: String = "",
                    problem: String = "",
                    solution: String = "",
-                   patternLanguage: String = "",
-                   references: List[Pattern] = Nil)
+                   patternLanguage: String = "")
 
 object Pattern {
   def all(): List[Pattern] = {
