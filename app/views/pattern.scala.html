@@ -18,7 +18,6 @@
                 @patterns.map { pattern =>
                     <li><a href='@{"/patterns/"}@pattern.id'>@pattern.title</a></li>
                 }
-                    <li>to be continued...</li>
                 </ul>
 
             </div>
@@ -42,7 +41,7 @@
                         @Html({
                             var patternLanguage: String = pattern.patternLanguage
                             patterns.foreach(p => p.synonyms.foreach(s => {
-                                patternLanguage = patternLanguage.replaceAll(s, "<a href='" + {"/patterns/"} + p.id + "'>" + s + "</a>")
+                                patternLanguage = patternLanguage.replaceAll("(?i)" + java.util.regex.Pattern.quote(s), "<a href='" + {"/patterns/"} + p.id + "'>" + s + "</a>")
                             }))
                             patternLanguage
                         })

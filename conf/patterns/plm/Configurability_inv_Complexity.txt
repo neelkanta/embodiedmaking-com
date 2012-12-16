@@ -8,4 +8,4 @@ Therefore introduce product configurability extremely cautiously. If a single sy
 
 The Few Skilled Gardeners and Three Product Champions collectively decide what to make configurable in a system,avoiding excessive configuration whenever possible. The configurability of a product is altered throughout its Ringed Growth.
 
-Configurability Inverse to its Complexity
+Configurability Inverse to its Complexity,configurability of products,configurability of a product

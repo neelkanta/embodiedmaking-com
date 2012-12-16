@@ -4,7 +4,6 @@ import java.util.Scanner
 import java.io.InputStream
 
 import scala.collection.JavaConversions._
-import com.google.common.base.Charsets
 
 case class Pattern(id: String = "",
                    title: String = "",
@@ -28,9 +27,9 @@ object Pattern {
 
       val title: String = if (scanner.hasNext) scanner.next() else ""
       val summary: String = if (scanner.hasNext) scanner.next() else ""
-      val problem: String = if (scanner.hasNext) scanner.next() else ""
-      val solution: String = if (scanner.hasNext) scanner.next() else ""
-      val patternLanguage: String = if (scanner.hasNext) scanner.next() else ""
+      val problem: String = if (scanner.hasNext) scanner.next() else "to be continued..."
+      val solution: String = if (scanner.hasNext) scanner.next() else "to be continued..."
+      val patternLanguage: String = if (scanner.hasNext) scanner.next() else "to be continued..."
       val synonyms: List[String] = if (scanner.hasNext) title :: scanner.next().split(",").toList else List(title)
 
       new Pattern(id, title, summary, problem, solution, patternLanguage, synonyms)
