@@ -15,7 +15,7 @@ Language_for_Product_Instances
 Living_Data_Everywhere
 Living_Prototypes
 Low_walled_town_communities
-Participating_Demographic
+Participating_Customer_Demographic
 Plant_in_a_Single_Garden
 Product_Markers
 Pruning_Products
@@ -24,10 +24,10 @@ Repurpose_Equipment
 Ringed_Growth
 Shade_from_Others
 Signature_Aromas
-Three_Champions
 Specify_to_Operationalize
 Temporary_Splint
 Themed_Areas
+Three_Product_Champions
 Town_Well
 Trusted_Circles
 Whole_Town_Participates
