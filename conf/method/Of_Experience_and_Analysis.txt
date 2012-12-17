@@ -1,0 +1,35 @@
+Of_Experience_and_Analysis_1
+
+We experience things, and we try and represent them through analysis. Our experiences have an intangible nature, and the analysis we do must be able to represent, translate, and interpret our experiences accurately.
+
+Current experiences are the result of our interactions with other things within our environments. The methods we use for analysis are often based on past experience, either that of ours or of others, in being able to effectively reflect and solve current experience. Given the limitations of varying perception, our ability to represent experience accurately, and the limitations of language, experiences as we experience them can never be truly experienced by another.
+
+Of_Experience_and_Analysis_2
+
+To understand experiences, we listen to stories, which are derived from experience.
+
+The most stable means of communicating experiences known to us are stories, a tradition that is several thousand years old, and perhaps as old as humanity itself.
+
+Of_Experience_and_Analysis_3
+
+And through these stories we can structure our analysis.
+
+Listening to different stories from different perspectives of the similar experiences in similar spaces helps provide the basis for the analysis we must do. As the analysis, and the conclusions from that analysis, is based on our selection of stories, it is important to get a broad coverage of the stories from different perspectives.
+
+Of_Experience_and_Analysis_4
+
+To help us do our analysis, we often resort to using precedents. These precedents are often in the form of examples.
+
+Assuming we have some understanding of the problems within a particular space, chances are someone else has done similar work with similar problems in the past. Our work is often built on the shoulders of giants before us, and modern media such as the internet has made it increasingly possible to search for similar analysis, which we then use as examples for our own analysis.
+
+Of_Experience_and_Analysis_5
+
+Sometimes, examples do not necessarily solve the complexity we are asked analyze, so we resort to using frameworks.
+
+Sometimes the examples are too specific to be applicable, and this is when we seek frameworks and guidance that are broadly applicable to a set of problems, from which we can structure and derive our analysis. Yet there must be some caution with which we find other examples and applicable frameworks.
+
+Of_Experience_and_Analysis_6
+
+A challenge we constantly face is to decide how we should balance the amount of experience, analysis, and frameworks we should use to design and operate systems.
+
+Experiences are unique, and any frameworks will consider some aspects of experience and ignore others. Yet treating each experience as unique would make it difficult to derive a stable design or system. Designers continuously balance this conflict in their daily work.

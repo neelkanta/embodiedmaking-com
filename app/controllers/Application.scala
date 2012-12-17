@@ -1,7 +1,7 @@
 package controllers
 
 import play.api.mvc._
-import models.Pattern
+import models.{MethodSlide, MethodSection, Pattern}
 
 object Application extends Controller {
 
@@ -14,7 +14,15 @@ object Application extends Controller {
   }
 
   def method = Action {
-    Ok(views.html.method.render())
+    Ok(views.html.method.render(MethodSection.all()))
+  }
+
+  def methodSection(id: String) = Action {
+    try {
+      Ok(views.html.methodSection.render(MethodSection.all(), MethodSection.getSection(id), MethodSlide.all(id)))
+    } catch {
+      case e: Exception => Redirect("/method")
+    }
   }
 
   def patterns = Action {
@@ -22,7 +30,11 @@ object Application extends Controller {
   }
 
   def pattern(id: String) = Action {
-    Ok(views.html.pattern.render(Pattern.all(), Pattern.get(id)))
+    try {
+      Ok(views.html.pattern.render(Pattern.all(), Pattern.get(id)))
+    } catch {
+      case e: Exception => Redirect("/patterns")
+    }
   }
 
   def vision = Action {

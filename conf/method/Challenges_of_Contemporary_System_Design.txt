@@ -1,0 +1,35 @@
+Challenges_of_Contemporary_System_Design_1
+
+Today more than ever before, we are surrounded by systems, formal and informal, that define the quality of our lives. We encounter them in our workplaces, in our homes, on our vacations, and within our families. We encounter them from the moment we wake to the moment we sleep, and their pervasive nature steers the courses of our lives.
+
+The proliferation of computer systems requires that we understand the effect of technology on our lives in order to balance our own abilities with that of machines. Establishing processes, systems, and automation has become increasingly easier through improvements in technology, making it readily possible for their over-application.
+
+Challenges_of_Contemporary_System_Design_2
+
+Systems today consist of elements like people, equipment, infrastructure, and computers. They consist of interactions between these elements, and they are held together by common goals and intentions.
+
+Our minds are adept at seeking patterns, and in the quest for repeatability, we can sometimes be fooled into assuming that personal perspectives or few observations of occurrences constitute a stable pattern. Understanding the roles, interactions, and their purpose requires deep observation of how people work together.
+
+Challenges_of_Contemporary_System_Design_3
+
+When systems fail, they can have disastrous consequences. They can cost human lives, make companies bankrupt, destroy economies, incur job losses, de-stabilize the environment and ecologies to the extent of affecting the planet, and leave the individuals that interact with them frustrated and incapacitated. When they perform well, they enrich human lives, make companies and economies prosper, create and sustain jobs, and bring stability to environments and ecologies around them. Designed well, they enrich our lives. Designed poorly, they leave us feeling frustrated and deficient.
+
+Ranging from the Skyguide system failure of the Swiss Air Traffic Control, the repeated booms and busts of stock markets due to loose market controls, to large-scale ERP and CRM implementations that bring limited organizational benefits, and to the state of the planet today, we are surrounded by the consequences of poor systems design.
+
+Challenges_of_Contemporary_System_Design_4
+
+And today, more than ever before, we are dealing with complexity on an unparalleled scale. Human populations and organizations are bigger than they have been ever before. Resources and the means to sustain ourselves are more limited than ever before. Competition is increasingly global, and the deep interconnections in systems with their environment constantly challenge their boundaries.
+
+Operating an organization is a complex task, and we often divide these tasks based on specialization. These specializations have a tendency to form departments, and each department becomes focused on narrow concerns. The integral nature of the organization is eroded, and resembles less and less the human body or other complete systems.
+
+Challenges_of_Contemporary_System_Design_5
+
+And with the rapid emergence of new technologies, there is a tendency to believe that these new technologies will create systems that solve all the problems of the past. If the rationality that produced the older system remains, the new technology is only used to repeat the past more effectively.
+
+Today the average human living in an industrialized society has to learn how to operate around 10,000 devices, ranging from operating coffee machines to buying train tickets from machines. The faddish addition of new technology adds complexity to existing systems, and designers must be able to judiciously gauge their value irrespective of attachment.
+
+Challenges_of_Contemporary_System_Design_6
+
+And in designing systems that solve the challenges of their environment effectively that, we must try and understand the experiences people have in those spaces. If we alter the system, we must be able to understand the new experiences that will occur in the same spaces. The people that work with and within these systems must be able to fulfill there purpose, interact effectively with each other, expand and contract their boundaries based on needs, and exist in harmony with their environments.
+
+The term experience can be interpreted as memories or knowledge of our past, such as our work experience, or it can be interpreted as our experience of the present. As much as possible, the design process should be focused on immediate experience by constantly evaluating how much of our retained knowledge is applicable at this very moment.

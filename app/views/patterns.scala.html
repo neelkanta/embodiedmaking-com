@@ -7,14 +7,15 @@
     <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
         <div class="container">
             <h1>Patterns</h1>
-
             <p class="lead">A Product Lifecycle Management Pattern Language</p>
         </div>
     </header>
 
     <div class="container">
         <div class="row">
-            <div class="span12">
+            @patternNavigation(patterns)
+
+            <div class="span9">
                 <section id="overview">
                     <ul class="thumbnails">
                         @patterns.map { pattern =>

@@ -1,0 +1,48 @@
+@(sections: List[MethodSection], section: MethodSection, slides: List[MethodSlide])
+
+@import tags._
+
+@main(section.title) {
+
+    <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
+        <div class="container">
+            <h1>Method</h1>
+            <p class="lead">@section.title</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            @methodNavigation(sections)
+
+            <div class="span9">
+                <section id="what-is-em">
+                    <div class="page-header">
+                        <h3>@section.title</h3>
+                        <p>@section.summary</p>
+                    </div>
+
+                    <ul class="thumbnails">
+                    @for(slide <- slides) {
+                        <li class="span6">
+                            <div class="thumbnail">
+                                <div class="caption">
+                                @Html(slide.description)
+                                </div>
+
+                                @if(slide != "") {
+                                    <img src='@routes.Assets.at("img/method/" + slide.id + ".jpg")' alt="@slide.id">
+                                }
+                            </div>
+                        </li>
+                        <li class="span3">
+                        @slide.note
+                        </li>
+                    }
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </div>
+
+}

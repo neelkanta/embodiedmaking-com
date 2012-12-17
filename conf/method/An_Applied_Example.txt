@@ -1,0 +1,67 @@
+An_Applied_Example_1
+
+The process of design with embodied making starts with listening to people in the space where we want our designs to live and rest. Stories are anecdotes as people relate them to us, and these are faithfully recorded as they are told to us.
+<ol>
+<li>"We share 10 meeting rooms, usually named after people to identify them, between 300 people, and the meeting rooms need to be kept locked."</li>
+<li>"The receptionist helps book the room, and room users pick up the key, and usually drop it back."</li>
+<li>"Although people are supposed to pick up and drop off the key with me, they rarely do. I have to run around and try and trace where the keys are."</li>
+<li>"I often have back-to-back meetings, and I don’t always have time to return the key."</li>
+<li>"We lose keys to meeting rooms all the time and have to replace all the locks 3 or 4 times a year."</li>
+<li>"We need presentation equipment for meetings."</li>
+</ol>
+
+Stories should be gathered from several perspectives. In the example of the meeting room, stories from the users of meeting rooms, building security, receptionists, moderators of meetings, visitors to the building to who come for a meeting, maintenance staff, or cleaning staff will help create a rich tapestry as the basis of designs.
+
+An_Applied_Example_2
+
+What induces people to behave in the way they do in their environments? Or motivates them to decide on a particular course of action? These factors are called forces in embodied making. We can identify some of these forces from the stories:
+<ul>
+<li>1 F01. Meeting rooms are shared by a lot of people.</li>
+<li>1 F02. Meeting rooms contain expensive equipment.</li>
+<li>1 F03. Desire to protect equipment in meeting rooms.</li>
+<li>1 F04. Limited number of meeting rooms.</li>
+<li>2 F05. Meeting rooms are booked with a single point.</li>
+<li>2 F06. Desire to pick up meeting room keys in 1 place.</li>
+<li>2 F07. Desire to return keys in 1 place.</li>
+<li>3 F08. Tendency for people to not return keys.</li>
+<li>3 F09. Difficulty in tracking down unreturned keys.</li>
+<li>4 F10. Individuals have several meetings without gaps.</li>
+<li>4 F11. Returning keys is often inconvenient</li>
+<li>5 F12. Frequent loss of meeting room keys.</li>
+<li>5 F13. Inability to distinguish keys of meeting rooms.</li>
+<li>6 F14. Use of high-quality equipment in meetings.</li>
+<ul>
+
+As we catalog more and more stories from different perspectives, more and more forces will emerge. The objective of enumerating forces isn’t to try and find as many forces as possible. In order to give designers a feeling of the space where their designs will live and rest, the objective is to capture an adequate number of forces for reflection.
+
+An_Applied_Example_3
+
+If we are able to find an elegant solution that is both stable and reliable, and this solution would be able to balance all of these forces (let’s assume for now that these stories and forces are complete), we would have created a system that would fulfill the requirements of sharing meeting rooms effectively. We can gain insight into how these forces exist in their environments by exploring how they interact with each other, by placing a (+) sign for a pleasant experience, a (-) sign for an unpleasant experience, and (~) for a neutral experience.
+
+Understanding the interactions between forces helps designers live and experience them. For each interaction, try and imagine situations where those interactions between forces would occur. By thinking about each interaction, you will increasingly understand how all of these forces co-exist in the same space. Understanding the complex interactions has a meditative quality, and after while, a feeling of “living” the forces occurs for the designer.
+
+An_Applied_Example_4
+
+As designers, we must also be conscious of our own will, and that our involvement in the design process, and the systems we realize from those designs, actively transform the environment.
+<ul>
+<li>W01. Desire for low cost solutions</li>
+<li>W02. Desire not to inconvenience meeting room users.</li>
+<li>W03. Desire to keep organizational culture intact.</li>
+<li>W04. Desire to make meeting room usage fun.</li>
+<li>W05. Desire to use of common locks and keys.</li>
+<ul>
+There is no clear or sharp distinction between wills and forces. They come from two directions. Wills comes from self awareness of the designer or requirements of the patron, and forces come from observation of patterns of behavior, culture, or nature in the design environment. By integrating the perspectives of wills and forces, designers can propose solutions that 'work'.
+
+Throughout this process, the personal goals and objectives of the designer or designers should be explicitly stated as wills. Interactions between wills and forces reveal their conduciveness to exist in the same space.
+
+An_Applied_Example_5
+
+An understanding of the forces and wills gives insight into the solutions that would be most likely to resolve them.
+
+As we think about the forces, and the interactions between forces, ideas will flow on how to resolve them. Each idea should be written down as a solution component, examining how it helps resolves the immediate forces we have considered, and all the forces that emerge afterwards. There is no fixed sequence on writing any of them down.
+
+An_Applied_Example_6
+
+And finally, we can realize and unify the solution using a combination of analogies and metaphors. For example, using the metaphor of a petting zoo...
+
+In this example, we want to create compassion and empathy, and we can achieve this by finding analogies or metaphors that inspire those emotions. There is a natural tendency for human beings to care for their pets. Animals should be selected for the vulnerability, and a connection to the planet can be found through featuring endangered animals.

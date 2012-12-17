@@ -10,6 +10,7 @@ GET     /ventures                   controllers.Application.ventures
 
 # Method page
 GET     /method                     controllers.Application.method
+GET     /method/:id                 controllers.Application.methodSection(id: String)
 
 # Patterns page
 GET     /patterns                   controllers.Application.patterns
