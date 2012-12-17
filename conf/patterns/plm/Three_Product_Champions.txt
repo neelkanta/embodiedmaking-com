@@ -1,4 +1,4 @@
-Three Champions
+Three Product Champions
 
 A product needs to be championed by at least 3 people in order to accepted as a candidate for development.
 
