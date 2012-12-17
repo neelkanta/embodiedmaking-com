@@ -1,4 +1,4 @@
-Aware and Integral Instances
+Aware and Integral Instances|1
 
 Components are aware of their role in fulfilling products, and product instances contain their own unique semantics. Awareness isn't elsewhere, but with the component itself.
 

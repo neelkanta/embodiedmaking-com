@@ -21,7 +21,7 @@
                             <li class="span3">
                                 <a href='@{"/patterns/"}@pattern.id' class="pattern thumbnail">
                                     <div class="caption pagination-centered"><strong>@pattern.title</strong></div>
-                                    <div class="pagination-centered">&diams; &diams; &diams;</div>
+                                    <div class="pagination-centered">@Html({"&diams; " * pattern.maturity})</div>
                                     <div class="caption">@pattern.summary</div>
                                 </a>
                             </li>

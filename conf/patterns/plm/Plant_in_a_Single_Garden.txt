@@ -1,4 +1,4 @@
-Plant in a Single Garden
+Plant in a Single Garden|1
 
 Virtual products can seemingly possess infinite space, but in reality only have finite capacity. Represent all products as occupying a single space.
 

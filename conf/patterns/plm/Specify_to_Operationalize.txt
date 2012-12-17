@@ -1,4 +1,4 @@
-Specify to Operationalize
+Specify to Operationalize|3
 
 Specify enough to build a prototype, and then stop. Grow the prototype enough to build a system, and then stop.
 
