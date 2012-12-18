@@ -24,7 +24,7 @@ How embodied making approaches the design of complex systems.
 
 Of_Experience_and_Analysis
 Of experience and analysis
-How we understand experience through analysis and frameworks
+How we understand experience through analysis and frameworks.
 
 Frameworks_Before_Facts
 Frameworks before facts
@@ -36,7 +36,7 @@ What happens if we lay emphasis only to experience?
 
 Experience_As_Analysis
 Experience as analysis, analysis as experience
-How we try and balance both experience and analysis
+How we try and balance both experience and analysis.
 
 Stories
 Stories
@@ -44,11 +44,11 @@ What are stories?
 
 Story_Telling_Styles
 Story-telling styles
-How do we choose to tell st
+How do we choose to tell stories?
 
 Creating_a_Tapestry_of_Stories
 Creating a tapestry of stories
-Collecting a rich base of interconnected stories as the basis of our designs
+Collecting a rich base of interconnected stories as the basis of our designs.
 
 Forces
 Forces

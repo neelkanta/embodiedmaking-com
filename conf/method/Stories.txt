@@ -1,0 +1,62 @@
+Stories_1
+
+Stories are one of the most reliable and time-tested means we have to reflect experience.
+
+Imagine a group of early humans, clustered around a fire after a day of hunting. Perhaps the day went well, and stories are told about how the hunters chased their prey. Perhaps the night sky is clear, and myths are woven about the position of the stars. Stories are probably as old as humanity itself.
+
+Stories_2
+
+Stories can be short excerpts from broader conversations that convey situation, roles, conflicts, opportunities, etc.
+<p>
+"I need to prepare a management summary for this material. Please summarize this complex topic into 3 bullet points containing no more than 20 words using this standard powerpoint template."
+<p><strong>story for a corporate re-organization</strong></p>
+</p>
+<p>
+"Oh no, John says his friend Tom might join us again. He’s so cynical, he always depresses me!"
+</p>
+<p><strong>story for designing a social application</strong></p>
+<p>
+“Our neighbours just bought a brand new Audi
+A4 Avant. We’re still stuck with our 8-year old
+Renault. Is it really so cheap to run this old car?”
+</p>
+<p><strong>story for designing a car marketplace</strong></p>
+</p>
+
+A story is always told through someone’s perspective, reflecting the personal experience of an individual rather than a shared understanding. Their primary purpose is the capture experience as a form of providing insight. Good stories give clues on what might have happened before or after the story, its setting, the nature of its characters, the emotions experienced by the characters, the spaces where things occur, and the patterns of events that occur in those spaces.
+
+Stories_3
+
+Or they could be longer episodes...
+<p>
+“I am a collection transporter, and I just picked up a bunch of containers from a flower grower. After doing all my collections, I then deliver them to the auction. As I am arrive at the auction, I need to find the grower's regular box to make the delivery. These flower growers have their regular boxes at the auction, and I arrive to find the regular boxes full. So what happens is that I talk to one of the auction handlers, and they talk to the flower grower, and the flower grower hires some extra space on the spot. Until the auction handler spoke to the flower grower, the flower grower didn't know that the regular boxes were full. So while I was with the auction handler, this ad-hoc space was hired. But it is difficult. When I arrive, I ... ”
+<p><strong>story for designing a logistics system</strong></p>
+</p>
+
+Setting provides clues to readers about the environment and the nature of the things in that environment. Dialogues provide clues about the nature of the interactions in those spaces. Turns and twists in the story provide insights on the nature of the events, and emotions provide clues on how people tend to feel in specific situations.
+
+Stories_4
+
+The stories should be captured from the participants and stakeholders of the system.
+<p>
+“I am a German Wholesaler, and I call my contact at my Dutch export wholesaler, from whom I bought the flowers, and enquire when I can expect delivery of the roses I ordered. The only thing the Dutch wholesaler can tell me is that ...”
+</p>
+<p><strong>story for designing a logistics planning system</strong></p>
+<p>
+“We have no shared standards, and each of us has their forensic picture of what happened. The more powerful players in our network have standards in which we must supply them information, but this information only helps create structures for themselves and their ERP systems, not necessarily for everyone else. This is especially true for the 50% of members of the network, the growers...”
+</p>
+<p><strong>story for designing a logistics planning system</strong></p>
+
+Stories should be recorded as faithfully as possible, sticking to the original narrative of the person who told the story.
+
+Stories_5
+
+The best stories follow the form of a narrative. They give strong contexts about the environment, the people involved, and typical situations.
+
+It may sometimes feel prudent to edit the story to remove political sensitivities or profanity. At the same time, political incorrectness and profanity have a tendency to accentuate facts as they are experienced, and the analyst must be able to balance inclusion or omission of grittier details of a story.
+
+Stories_6
+
+The stories we choose to capture must be directly related to the system we are trying to design. At the earlier stages of the design process, it is difficult to determine with which stories are relevant. It is best to capture a rich tapestry of stories to reflect the experiences of a wide variety of participants and stakeholders within the system. In earlier stages of design, it is best to capture longer narratives, as the challenges of the existing ways of work tend not to be completely apparent. As learnings and understandings of the existing system sharpen, stories can be made more succinct and extracted from broader narratives. Participants who join later in the design process should be urged to read the stories to understand the design context.
+
+Stories must not be recorded in an abstract form, such as use cases or scenarios. These abstractions are analytical forms which can follow the recording of a story. Stories should be recorded in an accessible form, and preferably indexed for referencing. Stories can vary in length from a few phrases to several paragraphs, and should focus on providing design insight.

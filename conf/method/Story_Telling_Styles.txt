@@ -1,0 +1,63 @@
+Story_Telling_Styles_1
+
+Try and capture the voice of the participants as much as possible in the stories. Pick a style appropriate to the individual who told you the story, and the organizational culture where you are developing the system. Stories should capture the environment through narratives, and experiences through dialogues. Narratives can be told in the 3rd person or in the 1st person. For example, a designer can maintain a narrative of their personal experience of an environment in the form of a journal. Dialogues should capture the personalities of the individuals participating in conversations, emotions, and the context in which they occur. Woven together, narratives and dialogues give strong foundations for system design.
+
+Stories must be appealing to read and must capture the voice of the narrator. Verbatim representations of stories that are faithful to every word and pause uttered by a narrator may not necessarily appeal to a mass audience. On the other hand, the voice of the narrator must live in the story derived from the original narration.
+
+Story_Telling_Styles_2
+
+In a culture that is straight-forward, to-the-point, and results-oriented, consider using a precise and descriptive style of narrative peppered with some humor.
+<p>
+The main hallway of the Sternwood Place was two stories high. Over the entrance doors, which would have let in a troop of Indian elephants, there was a broad stained-glass panel showing a knight in dark armor rescuing a lady who was tied to a tree and didn't have any clothes on but some very long and convenient hair. The knight had pushed the vizor of his helmet back to be sociable, and he was fiddling on the ropes that tied the lady to the tree and not getting anywhere. I stood there and thought that if I lived in the house, I would sooner or later have to climb up there and help him.
+</p>
+<p><strong>Excerpt from The Big Sleep, Raymond Chandler</strong></p>
+
+Stories, in their telling, must capture the narrative style of the original storyteller. In operational environments, such as a manufacturing plant or a warehouse, the use of language tends to be brief and to the point. In the Banking and Insurance industries, language tends to be more formal. In the Telecommunications industry there is a tendency to use a lot of acronyms.
+
+Story_Telling_Styles_3
+
+In a culture that is strongly governed with formal policies and rules, consider using a more formal, serious, and precise style of narrative.
+<p>
+First he wanted to stand up quietly and undisturbed, get dressed, above all have breakfast, and only then consider further action, for—he noticed this clearly—by thinking things over in bed he would not reach a reasonable conclusion. He remembered that he had already often felt some light pain or other in bed, perhaps the result of an awkward lying position, which later, once he stood up, turned out to be purely imaginary, and he was eager to see how his present fantasies would gradually dissipate.
+</p>
+<p><strong>Excerpt from The Metamorphosis, Franz Kafka</strong></p>
+
+Communications, ranging from emails to presentations, tends to vary in style in each of these environments. Stories must be able to reflect the voices in these environments as they are.
+
+Story_Telling_Styles_4
+
+In a culture that is motivated by social change at a grassroots level, consider using a descriptive, engaging, and lyrical style evoking the need for change.
+<p>
+Once California belonged to Mexico and its land to Mexicans; and a horde of tattered feverish Americans poured in. And such was their hunger for land that they took the land--stole Sutter’s land, Guerrero’s land, took the grants and broke them up and growled and quarreled over them, those frantic hungry men; and they guarded with guns the land they had stolen. They put up housed and barns, they turned the earth and planted crops. And these things were possession, and possession was ownership.
+<p>
+<p><strong>Excerpt from The Grapes of Wrath, John Steinbeck</strong></p>
+
+It is often tempting as analysts to interpret stories through our own personal communications styles, and this must be avoided in order to capture the real voices in the organization where systems are to reside. For instance, an analyst who practices concise communications by “omitting needless words” may be tempted to be as succinct as possible when writing up a story. An individual’s more verbose choice of phrases to describe things and situations can be omitted in this process, and it is often these details in the story that provide greatest insight. Another analyst might feel the need to iron out coarseness or profanity in a story in order to make it more politically correct.
+
+Story_Telling_Styles_5
+
+Similarly, dialogues can capture emotion and reflect culture through the use of style.
+<p>
+“Why must I face this angry customer who placed their with us a month ago and still haven’t received their delivery? What do I begin to tell them? All my sympathies are with the customer and not with us.”
+</p>
+<p>
+<strong>
+This story used for designing an e-commerce system captures the frustration experienced by a customer service agent and reflects their ability to emphatize with customers.
+</strong>
+</p>
+<p>
+“We’re at the top of our game today after 30 years in this business, but there is nothing stopping an emerging economy to greenfield this and building a system that doesn’t have 30 years of legacy practices.”
+</p>
+<p>
+<strong>
+This story used for designing an auction system captures the anxiety experienced by a business executive and reflects their ability to think strategically about competition.
+</strong>
+</p>
+
+Readers of these sanitized stories will not be able to construct an image of the environment as it really is, and this often results in the design of systems inappropriate to their environment.
+
+Story_Telling_Styles_6
+
+The best stories are those stay with us for the entire duration of the design process. The pivotal nature of some stories become apparent the moment we hear them, and it is important that designers are conscious of them throughout the design process. The importance of other stories don’t become apparent until later. It is important to capture a large body of stories continuously throughout the design process and to weave them together with common threads.
+
+Be as faithful as possible to the voices you hear, and ensure that these voices can be heard repeatedly throughout the system’s lifecycle.
