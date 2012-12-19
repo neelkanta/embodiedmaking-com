@@ -8,11 +8,10 @@ object StaticResources {
     Thread.currentThread().getContextClassLoader.getResourceAsStream(name)
   }
 
-  def scan[T](name: String, f: Scanner => T) = {
+  def scan[R](name: String, f: (Scanner) => R): R = {
     val stream: InputStream = getInputStream(name)
     try {
-      val scanner: Scanner = new Scanner(stream, "UTF-8")
-      f(scanner)
+      f(new Scanner(stream, "UTF-8"))
     } finally {
       stream.close()
     }

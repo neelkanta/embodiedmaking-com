@@ -19,7 +19,7 @@ object Application extends Controller {
 
   def methodSection(id: String) = Action {
     try {
-      Ok(views.html.methodSection.render(MethodSection.all(), MethodSection.getSection(id), MethodSlide.all(id)))
+      Ok(views.html.methodSection.render(MethodSection.all(), MethodSection.get(id), MethodSlide.all(id)))
     } catch {
       case e: Exception => Redirect("/method")
     }
