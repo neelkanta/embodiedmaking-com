@@ -16,15 +16,12 @@ case class Pattern(id: String,
 
 object Pattern {
   def all(): List[Pattern] = {
-    getIds().map(id => {
-      get(id)
-    })
+    getIds.map(get(_))
   }
 
   def get(id: String): Pattern = {
-    val stream: InputStream = getInputStream("patterns/plm/" + id + ".txt")
-    try {
-      val scanner: Scanner = new Scanner(stream, "UTF-8").useDelimiter("\n\n")
+    StaticResources.scan("patterns/plm/" + id + ".txt", { scanner =>
+      scanner.useDelimiter("\n\n")
 
       val caption = if (scanner.hasNext) scanner.next() else ""
       val split: Array[String] = caption.split('|')
@@ -38,21 +35,10 @@ object Pattern {
       val synonyms: List[String] = if (scanner.hasNext) title :: scanner.next().split(",").toList else List(title)
 
       new Pattern(id, maturity, title, summary, problem, solution, patternLanguage, synonyms)
-    } finally {
-      stream.close()
-    }
+    })
   }
 
-  def getIds(): List[String] = {
-    val stream: InputStream = getInputStream("patterns/plm/__Patterns.txt")
-    try {
-      new Scanner(stream, "UTF-8").toList
-    } finally {
-      stream.close()
-    }
-  }
-
-  def getInputStream(name: String): InputStream = {
-    Thread.currentThread().getContextClassLoader.getResourceAsStream(name)
+  private def getIds: List[String] = {
+    StaticResources.scan("patterns/plm/__Patterns.txt", { _.toList})
   }
 }
