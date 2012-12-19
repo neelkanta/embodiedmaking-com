@@ -1,6 +1,6 @@
 Living Prototypes|2
 
-Get just enough working to showcase idea. Place effort in prototypes and not big specifications.
+Get just enough working to showcase idea. Prefer putting effort in prototypes over big specifications.
 
 It is difficult to comprehend the intended behaviour of a product before it is built. Some of the behaviour of a new product is often similar to existing products with some variations, such as the product's behaviour for regulatory compliance. The product's differentiating qualities are often completely new. Products are often built collectively by several departments, often using external suppliers. If the different parties involved in the product's design, development, testing, and operation due not have a common understanding of the product's intended behaviour, the product's realization will be inefficient and unstable. Documentation to help realize the product, such as requirement and solution specifications, tend to increase in volume in proportion to the complexity of the product and the number of involved parties. If the documentation becomes very lengthy, there is an increased likelihood that not everyone will read everything in the documents. Complex products with several involved parties require high volumes of communications (meetings, emails, phone calls, etc.) to ensure reliable delivery and operation, which further increases inefficiencies.
 
