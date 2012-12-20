@@ -12,7 +12,7 @@
 
     <div class="container">
         <div class="row">
-            @sidebar("patterns", patterns)
+            @sidebar("patterns", patterns, Some(pattern))
 
             <div class="span9">
                 <div class="page-header">
@@ -39,10 +39,8 @@
                 </div>
 
                 <hr/>
-
                 @navigation("patterns", patterns, pattern)
             </div>
-
         </div>
     </div>
 }

@@ -13,7 +13,7 @@
 
     <div class="container">
         <div class="row">
-            @sidebar("method", sections)
+            @sidebar("method", sections, Some(section))
 
             <div class="span9">
                 <div class="page-header">
@@ -31,6 +31,7 @@
                         </div>
                         <div class="span3">@slide.note</div>
                     </div>
+
                     <hr/>
                 }
 

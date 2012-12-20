@@ -12,7 +12,7 @@
         val overview = "<a href='/" + section + "'>Overview</a>"
         val next = navigationLink(navs, current, +1 ).map(nav => "<a href='/" + section + "/" + (nav.id) + "'>" + (nav.title) + " &raquo;</a>").getOrElse("")
 
-        Html(List(previous, overview, next).map("<li>" + _ + "</li>").mkString)
+        Html(List(previous, overview, next).map("<li style='width: 33%'>" + _ + "</li>").mkString)
     }
     </ul>
 </div>
