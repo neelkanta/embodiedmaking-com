@@ -16,30 +16,24 @@
             @methodNavigation(sections)
 
             <div class="span9">
-                <section id="what-is-em">
                     <div class="page-header">
                         <h3>@section.title</h3>
                         <p>@section.summary</p>
                     </div>
 
-                    <ul class="thumbnails">
+                <section>
                     @for(slide <- slides) {
-                        <li class="span6">
-                            <div class="thumbnail">
-                                <div class="caption">
-                                @Html(slide.description)
-                                </div>
-
-                                @if(slide != "") {
+                        <div class="row">
+                            <div class="span6">
+                                <p>@Html(slide.description)</p>
+                                <span class="pagination-centered">
                                     <img src='@routes.Assets.at("img/method/" + slide.id + ".jpg")' alt="@slide.id">
-                                }
+                                </span>
                             </div>
-                        </li>
-                        <li class="span3">
-                        @slide.note
-                        </li>
+                            <div class="span3">@slide.note</div>
+                        </div>
+                        <hr/>
                     }
-                    </ul>
                 </section>
             </div>
         </div>
