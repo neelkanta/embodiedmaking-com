@@ -1,14 +1,14 @@
-@(sections: List[MethodSection])
+@(section: String, navs: List[Navigable])
 
 <div class="span3 bs-method-sidebar">
     <ul class="well nav nav-list bs-sidenav">
         <li class="nav-header">Quick navigation</li>
-        <li><a href='@{"/method"}'>Overview</a></li>
+        <li><a href='@{"/" + section}'>Overview</a></li>
 
         <li class="nav-header">Sections</li>
 
-        @sections.map { section =>
-            <li><a href='@{"/method/"}@section.id'>@section.title</a></li>
+        @navs.map { nav =>
+            <li><a href='@{"/" + section + "/"}@nav.id'>@nav.title</a></li>
         }
     </ul>
 </div>

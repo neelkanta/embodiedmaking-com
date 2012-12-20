@@ -3,7 +3,7 @@ package models
 import scala.collection.JavaConversions._
 import StaticResources._
 
-case class MethodSection(id: String, title: String, summary: String)
+case class MethodSection(id: String, title: String, summary: String) extends Navigable
 
 object MethodSection {
   private val methodSections = LazyCache {

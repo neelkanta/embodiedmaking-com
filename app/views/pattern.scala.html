@@ -3,7 +3,6 @@
 @import tags._
 
 @main(pattern.title) {
-
     <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
         <div class="container">
             <h1>Patterns</h1>
@@ -13,30 +12,37 @@
 
     <div class="container">
         <div class="row">
-            @patternNavigation(patterns)
+            @sidebar("patterns", patterns)
 
-            <div class="span9 page-header">
-                <h3>@pattern.title</h3>
-                <p>@pattern.summary</p>
+            <div class="span9">
+                <div class="page-header">
+                    <h3>@pattern.title</h3>
+                    <p>@pattern.summary</p>
+                </div>
+
+                <div class="pattern">
+                    <p class="pagination-centered"><img src='@routes.Assets.at("img/patterns/plm/" + pattern.id + ".jpg")' alt="@pattern.title"></p>
+                    <p class="pagination-centered">@Html({"&diams; " * pattern.maturity})</p>
+                    <h2><small>Problem</small></h2>
+                    <p>@pattern.problem</p>
+                    <h2><small>Solution</small></h2>
+                    <p>@pattern.solution</p>
+
+                    <h2><small>Pattern language</small></h2>
+                    @Html({
+                        var patternLanguage: String = pattern.patternLanguage
+                        patterns.foreach(p => p.synonyms.foreach(s => {
+                            patternLanguage = patternLanguage.replaceAll("(?i)" + java.util.regex.Pattern.quote(s), "<a href='" + {"/patterns/"} + p.id + "'>" + s + "</a>")
+                        }))
+                        patternLanguage
+                    })
+                </div>
+
+                <hr/>
+
+                @navigation("patterns", patterns, pattern)
             </div>
 
-            <div class="span9 pattern">
-                <p class="pagination-centered"><img src='@routes.Assets.at("img/patterns/plm/" + pattern.id + ".jpg")' alt="@pattern.title"></p>
-                <p class="pagination-centered">@Html({"&diams; " * pattern.maturity})</p>
-                <h2><small>Problem</small></h2>
-                <p>@pattern.problem</p>
-                <h2><small>Solution</small></h2>
-                <p>@pattern.solution</p>
-
-                <h2><small>Pattern language</small></h2>
-                @Html({
-                    var patternLanguage: String = pattern.patternLanguage
-                    patterns.foreach(p => p.synonyms.foreach(s => {
-                        patternLanguage = patternLanguage.replaceAll("(?i)" + java.util.regex.Pattern.quote(s), "<a href='" + {"/patterns/"} + p.id + "'>" + s + "</a>")
-                    }))
-                    patternLanguage
-                })
-            </div>
         </div>
     </div>
 }

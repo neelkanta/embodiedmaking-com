@@ -1,0 +1,18 @@
+@(section: String, navs: List[Navigable], current: Navigable)
+
+@navigationLink(navs: List[Navigable], current: Navigable, offset: Int) = @{
+    val idx = navs.indexOf(current) + offset
+    if (idx >= 0 && idx < navs.length) Some(navs(idx)) else None
+}
+
+<div class="navigation">
+    <ul class="nav-links">
+    @{
+        val previous = navigationLink(navs, current, -1 ).map(nav => "<a href='/" + section + "/" + (nav.id) + "'>&laquo; " + (nav.title) + "</a>").getOrElse("")
+        val overview = "<a href='/" + section + "'>Overview</a>"
+        val next = navigationLink(navs, current, +1 ).map(nav => "<a href='/" + section + "/" + (nav.id) + "'>" + (nav.title) + " &raquo;</a>").getOrElse("")
+
+        Html(List(previous, overview, next).map("<li>" + _ + "</li>").mkString)
+    }
+    </ul>
+</div>

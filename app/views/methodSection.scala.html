@@ -13,28 +13,28 @@
 
     <div class="container">
         <div class="row">
-            @methodNavigation(sections)
+            @sidebar("method", sections)
 
             <div class="span9">
-                    <div class="page-header">
-                        <h3>@section.title</h3>
-                        <p>@section.summary</p>
-                    </div>
+                <div class="page-header">
+                    <h3>@section.title</h3>
+                    <p>@section.summary</p>
+                </div>
 
-                <section>
-                    @for(slide <- slides) {
-                        <div class="row">
-                            <div class="span6">
-                                <p>@Html(slide.description)</p>
-                                <span class="pagination-centered">
-                                    <img src='@routes.Assets.at("img/method/" + slide.id + ".jpg")' alt="@slide.id">
-                                </span>
-                            </div>
-                            <div class="span3">@slide.note</div>
+                @for(slide <- slides) {
+                    <div class="row">
+                        <div class="span6">
+                            <p>@Html(slide.description)</p>
+                            <span class="pagination-centered">
+                                <img src='@routes.Assets.at("img/method/" + slide.id + ".jpg")' alt="@slide.id">
+                            </span>
                         </div>
-                        <hr/>
-                    }
-                </section>
+                        <div class="span3">@slide.note</div>
+                    </div>
+                    <hr/>
+                }
+
+                @navigation("method", sections, section)
             </div>
         </div>
     </div>

@@ -11,7 +11,7 @@ case class Pattern(id: String,
                    problem: String,
                    solution: String,
                    patternLanguage: String,
-                   synonyms: List[String])
+                   synonyms: List[String]) extends Navigable
 
 object Pattern {
   private val ids = LazyCache {
