@@ -6,6 +6,7 @@ Configurability_inv_Complexity
 Constant_Circulation
 Continuous_Harvesting
 Decide_by_Matching
+Declarative_Component_Dependencies
 Deep_Roots
 Exotic_Plants
 Few_Skilled_Gardeners
@@ -15,8 +16,10 @@ Language_for_Product_Instances
 Living_Data_Everywhere
 Living_Prototypes
 Low_walled_town_communities
+Many_Products_Coexist
 Participating_Customer_Demographic
 Plant_in_a_Single_Garden
+Interdisciplinary_Expertise
 Product_Markers
 Pruning_Products
 Recast_Moulds
