@@ -1,3 +1,9 @@
-Interdisciplinary Expertise|3
+Interdisciplinary Expertise|2
 
 Individuals are encouraged to develop inter-disciplinary skills. Encourage generalists who can easily specialize.
+
+Specialists are often required for product implementations given the technological complexity of Telecommunications environments. The Telecom industry, however, is also characterized by rapid change, and there is a tendency for specialists to desire retaining their specializations despite these changes.
+
+Therefore focus individuals within the enterprise to build expertise in multiple disciplines. Encourage data specialists to become process specialists, and process specialists to become business specialists. Encourage everyone to perform a multitude of varied tasks.
+
+Develop a Few Skilled Gardeners who can tackle almost any aspect of the product, starting from Change it with Confidence.
