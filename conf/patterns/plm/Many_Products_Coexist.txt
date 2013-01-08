@@ -1,3 +1,5 @@
 Many Products Coexist|1
 
 Products are aware of each other and coexist together. Products broadcast events to other Products.
+
+Telecommunications products exist in complex environments where several products are provided to different customers simultaneously.
