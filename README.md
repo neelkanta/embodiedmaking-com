@@ -1,10 +1,11 @@
 Embodied making website
 =======================
+[http://www.embodiedmaking.com](http://www.embodiedmaking.com)
+
 * Explain our embodied making practice
 * Document our method and some patterns
 * Allow people to participate in our ventures
 
-[http://www.embodiedmaking.com](http://www.embodiedmaking.com)
 
 Testing locally
 ---------------
