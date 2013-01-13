@@ -4,6 +4,7 @@ project/target
 target
 tmp
 .history
+.env
 dist
 .DS_Store
 /.idea
