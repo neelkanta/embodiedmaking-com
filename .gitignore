@@ -5,6 +5,7 @@ target
 tmp
 .history
 .env
+Procfile
 dist
 .DS_Store
 /.idea
