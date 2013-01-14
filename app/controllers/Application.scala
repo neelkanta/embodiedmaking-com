@@ -1,47 +1,47 @@
 package controllers
 
 import play.api.mvc._
-import models.{MethodSlide, MethodSection, Pattern}
+import models._
 
-object Application extends Controller {
+object Application extends Controller with ProvidesRequestInfo {
 
-  def index = Action {
-    Ok(views.html.index.render())
+  def index = UserAwareAction { implicit request =>
+    Ok(views.html.index())
   }
 
-  def ventures = Action {
-    Ok(views.html.comingSoon.render("ventures"))
+  def ventures = UserAwareAction { implicit request =>
+    Ok(views.html.comingSoon("ventures"))
   }
 
-  def method = Action {
-    Ok(views.html.method.render(MethodSection.all()))
+  def method = UserAwareAction { implicit request =>
+    Ok(views.html.method(MethodSection.all()))
   }
 
-  def methodSection(id: String) = Action {
+  def methodSection(id: String) = UserAwareAction { implicit request =>
     try {
-      Ok(views.html.methodSection.render(MethodSection.all(), MethodSection.get(id), MethodSlide.all(id)))
+      Ok(views.html.methodSection(MethodSection.all(), MethodSection.get(id), MethodSlide.all(id)))
     } catch {
       case e: Exception => Redirect("/method")
     }
   }
 
-  def patterns = Action {
-    Ok(views.html.patterns.render(Pattern.all()))
+  def patterns = UserAwareAction { implicit request =>
+    Ok(views.html.patterns(Pattern.all()))
   }
 
-  def pattern(id: String) = Action {
+  def pattern(id: String) = UserAwareAction { implicit request =>
     try {
-      Ok(views.html.pattern.render(Pattern.all(), Pattern.get(id)))
+      Ok(views.html.pattern(Pattern.all(), Pattern.get(id)))
     } catch {
       case e: Exception => Redirect("/patterns")
     }
   }
 
-  def vision = Action {
-    Ok(views.html.comingSoon.render("vision"))
+  def vision = UserAwareAction { implicit request =>
+    Ok(views.html.comingSoon("vision"))
   }
 
-  def contact = Action {
-    Ok(views.html.comingSoon.render("contact"))
+  def contact = UserAwareAction { implicit request =>
+    Ok(views.html.comingSoon("contact"))
   }
 }

@@ -45,6 +45,10 @@ section {
     margin-top: 10px;
 }
 
+.navbar .avatar {
+    height: 22px;
+}
+
 div.navigation ul {
     list-style-type:none;
     height:30px;
