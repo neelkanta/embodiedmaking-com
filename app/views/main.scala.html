@@ -43,7 +43,6 @@
                             Embodied Making
                         </a>
 
-
                         <div class="nav-collapse collapse">
                             <ul class="nav">
                                 @navLink(name = "method")
@@ -56,7 +55,7 @@
                             <ul class="nav pull-right">
                             @if(requestInfo.user.isDefined) {
                                 <li class="dropdown">
-                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown">
+                                    <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target=".dropdown">
                                         <img class="avatar img-rounded" src="@(requestInfo.user.get.avatarUrl)">
                                         @(requestInfo.user.get.fullName)
                                         <b class="caret"></b>
