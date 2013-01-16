@@ -1,6 +1,4 @@
-/* Padding below the footer and lighter body text */
 body {
-    padding-bottom: 40px;
     color: #3a3a3a;
 }
 
@@ -15,6 +13,22 @@ body {
 section {
     padding-top: 30px;
 }
+
+footer {
+    text-align: center;
+    padding: 30px 0;
+    margin-top: 30px;
+    border-top: 1px solid #e5e5e5;
+    background-color: #f5f5f5;
+}
+
+.footer-links {
+    margin: 10px 0;
+}
+
+.footer-links li {
+    display: inline;
+    padding: 0 2px;}
 
 /* NAVBAR
 -------------------------------------------------- */
@@ -50,17 +64,18 @@ section {
 }
 
 div.navigation ul {
-    list-style-type:none;
-    height:30px;
-    text-align:center;
-    width: 100%;      /* new */
-    display: table;   /* updated */
+    list-style-type: none;
+    height: 30px;
+    text-align: center;
+    width: 100%; /* new */
+    display: table; /* updated */
 }
 
 div.navigation ul li {
-    display: table-cell;  /* updated */
+    display: table-cell; /* updated */
 
 }
+
 /* CARROUSSEL
 -------------------------------------------------- */
 
