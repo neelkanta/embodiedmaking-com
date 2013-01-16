@@ -63,19 +63,6 @@ footer {
     height: 22px;
 }
 
-div.navigation ul {
-    list-style-type: none;
-    height: 30px;
-    text-align: center;
-    width: 100%; /* new */
-    display: table; /* updated */
-}
-
-div.navigation ul li {
-    display: table-cell; /* updated */
-
-}
-
 /* CARROUSSEL
 -------------------------------------------------- */
 
@@ -280,6 +267,11 @@ div.navigation ul li {
 }
 
 @media (max-width: 767px) {
+    footer {
+        margin-left: -20px;
+        margin-right: -20px;
+    }
+
     .carousel {
         margin-left: -20px;
         margin-right: -20px;
