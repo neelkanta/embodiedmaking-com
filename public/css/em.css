@@ -239,11 +239,6 @@ div.navigation ul li {
         margin-top: 0px;
     }
 
-    .container.navbar-wrapper {
-        margin-bottom: 0;
-        width: auto;
-    }
-
     .navbar .navbar-inner {
         border-radius: 0;
         margin: -20px 0;
