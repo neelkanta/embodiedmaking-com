@@ -33,13 +33,11 @@
                 <div class="container">
                     <a class="brand" href="@{routes.Application.index()}">Embodied Making</a>
 
-                    <ul class="nav">
-                        @navLink(name = "method")
-                        @navLink(name = "patterns")
-                        @navLink(name = "ventures")
-                        @navLink(name = "vision")
-                        @navLink(name = "contact")
-                    </ul>
+                    <a class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                        <span class="icon-bar"></span>
+                    </a>
 
                     <ul class="nav pull-right">
                     @if(requestInfo.user.isDefined) {
@@ -60,6 +58,17 @@
                         <li><a href="/authenticate/linkedin"><i class="icon-user icon-white"></i> Sign in</a></li>
                     }
                     </ul>
+
+
+                    <div class="nav-collapse collapse">
+                        <ul class="nav">
+                            @navLink(name = "method")
+                            @navLink(name = "patterns")
+                            @navLink(name = "ventures")
+                            @navLink(name = "vision")
+                            @navLink(name = "contact")
+                        </ul>
+                    </div>
                 </div>
             </div>
         </div>

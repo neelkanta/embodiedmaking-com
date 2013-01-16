@@ -9,3 +9,9 @@
     <li class="previous">@Html(navigationLink(navs, current, -1 ).map(nav => "<a href='/" + section + "/" + (nav.id) + "'>&larr; " + (nav.title) + "</a>").getOrElse(""))</li>
     <li class="next">@Html(navigationLink(navs, current, +1 ).map(nav => "<a href='/" + section + "/" + (nav.id) + "'>" + (nav.title) + " &rarr;</a>").getOrElse(""))</li>
 </ul>
+
+<ul class="pager">
+    <li class="previous"><a href="/@(section)" class="pull-right">Overview</a></li>
+    <li class="next"><a href="#" class="pull-right">Back to top</a></li>
+</ul>
+

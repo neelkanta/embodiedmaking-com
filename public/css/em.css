@@ -63,6 +63,12 @@ footer {
     height: 22px;
 }
 
+.pager li > a, .pager li > span {
+    border: none;
+    padding: 0px;
+}
+
+
 /* CARROUSSEL
 -------------------------------------------------- */
 
@@ -221,7 +227,6 @@ footer {
 }
 
 @media (max-width: 979px) {
-
     .content-wrap {
         margin-top: 0px;
     }
