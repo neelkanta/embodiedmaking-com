@@ -1,7 +1,9 @@
 @()(implicit requestInfo: RequestInfo)
 
-@if(requestInfo.user.isDefined) {
 <p>
+@if(requestInfo.user.isDefined) {
     <div class="fb-comments" data-href="http://www.embodiedmaking.com@(requestInfo.uri)" data-width="400" data-num-posts="4" data-colorscheme="light"></div>
-</p>
+} else {
+    <div class="muted pagination-centered">&raquo; Want to join the discussion? <a href="/authenticate/facebook">Sign in!</a> &laquo;</div>
 }
+</p>
