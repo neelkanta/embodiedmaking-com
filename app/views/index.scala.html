@@ -4,32 +4,35 @@
 <div id="myCarousel" class="carousel slide">
     <!-- Carousel items -->
     <div class="carousel-inner">
+        @if(!requestInfo.user.isDefined) {
+        <div class="item">
+            <img src='@routes.Assets.at("img/carousel/participate.jpg")' alt="Participate image">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Sign in to participate</h1>
+
+                    <p class="lead">We believe in an open approach to our innovations. Like to help us solve real
+                        problems? Discuss on our ideas.</p>
+                    <a class="btn btn-large btn-primary" href="/authenticate/facebook">Sign In</a>
+                </div>
+            </div>
+        </div>
+        }
+
         <div class="active item">
-            <img src='@routes.Assets.at("img/carousel/method.jpg")' alt="Venure image">
+            <img src='@routes.Assets.at("img/carousel/method.jpg")' alt="Method image">
 
             <div class="container">
                 <div class="carousel-caption">
                     <h1>Explore our method</h1>
 
                     <p class="lead">We approach design challenges using our Embodied making method.</p>
-                    <a class="btn btn-large btn-primary" href="@{routes.Application.method()}">Explore now</a>
+                    <a class="btn btn-large btn-primary" href="@{routes.Application.method()}">Method Overview</a>
                 </div>
             </div>
         </div>
 
-        <div class="item">
-            <img src='@routes.Assets.at("img/carousel/ventures.jpg")' alt="Venure image">
-
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Sign up to participate</h1>
-
-                    <p class="lead">We believe in an open approach to our innovations. Like to help us solve real
-                        problems? Participate!</p>
-                    <a class="btn btn-large btn-primary" href="@{routes.Application.vision()}">Learn more</a>
-                </div>
-            </div>
-        </div>
     </div>
     <!-- Carousel nav -->
     <a class="carousel-control left" href="#myCarousel" data-slide="prev">&lsaquo;</a>

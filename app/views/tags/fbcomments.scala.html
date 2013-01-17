@@ -1,0 +1,7 @@
+@()(implicit requestInfo: RequestInfo)
+
+@if(requestInfo.user.isDefined) {
+<p>
+    <div class="fb-comments" data-href="http://www.embodiedmaking.com@(requestInfo.uri)" data-width="400" data-num-posts="4" data-colorscheme="light"></div>
+</p>
+}
