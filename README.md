@@ -30,10 +30,10 @@ Now start the application using foreman
 foreman start
 ```
 
-Facebook login
---------------
+Local setup
+-----------
 
-To test Facebook login locally, we need to use the correct hostname. Add the following line to /etc/hosts
+To test using local domain (not required), update /etc/hosts
 
 ```
 127.0.0.1       local.embodiedmaking.com

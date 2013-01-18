@@ -1,4 +1,3 @@
 9998:securesocial.controllers.DefaultTemplatesPlugin
 9999:service.InMemoryUserService
 10000:securesocial.core.providers.LinkedInProvider
-10001:securesocial.core.providers.FacebookProvider

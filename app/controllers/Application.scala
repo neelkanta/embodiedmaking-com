@@ -43,7 +43,7 @@ object Application extends Controller with ProvidesRequestInfo {
   }
 
   def contact = UserAwareAction { implicit request =>
-    Ok(views.html.comingSoon("contact")).withSession(storeUri(request))
+    Ok(views.html.contact()).withSession(storeUri(request))
   }
 
   private def storeUri(request: Request[Any]) : Session = {

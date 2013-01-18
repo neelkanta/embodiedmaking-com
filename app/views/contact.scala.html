@@ -1,0 +1,28 @@
+@()(implicit requestInfo: RequestInfo)
+
+@import tags._
+
+@main("Method") {
+
+<header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
+    <div class="container">
+        <h1>Contact</h1>
+
+        <p class="lead">Get in touch</p>
+    </div>
+</header>
+
+    <div class="container">
+        <div class="row">
+            <div class="span4">
+                <section>
+                    Coming soon
+                </section>
+            </div>
+        </div>
+    </div>
+
+    <script type="text/javascript">
+        $(document).ready(equalHeight($(".thumbnail"))); // TODO [AK] does not play nicely with responsive css
+    </script>
+}
