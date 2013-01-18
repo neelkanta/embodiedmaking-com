@@ -38,10 +38,6 @@ object Application extends Controller with ProvidesRequestInfo {
     }
   }
 
-  def vision = UserAwareAction { implicit request =>
-    Ok(views.html.comingSoon("vision")).withSession(storeUri(request))
-  }
-
   def contact = UserAwareAction { implicit request =>
     Ok(views.html.contact()).withSession(storeUri(request))
   }

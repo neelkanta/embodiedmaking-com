@@ -16,9 +16,6 @@ GET     /method/:id                 controllers.Application.methodSection(id: St
 GET     /patterns                   controllers.Application.patterns
 GET     /patterns/:id               controllers.Application.pattern(id: String)
 
-# Vision page
-GET     /vision                     controllers.Application.vision
-
 # Contact page
 GET     /contact                    controllers.Application.contact
 
