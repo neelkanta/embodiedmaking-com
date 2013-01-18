@@ -1,4 +1,5 @@
-@(title: String)(content: Html)(implicit requestInfo: RequestInfo)
+@(title: String)(content: Html)(implicit request : Request[Any])
+@import securesocial.core.SecureSocial
 
 @import org.joda.time.LocalDate
 
@@ -40,11 +41,11 @@
                     </a>
 
                     <ul class="nav pull-right">
-                    @if(requestInfo.user.isDefined) {
+                    @if(SecureSocial.currentUser.isDefined) {
                         <li class="dropdown">
                             <a href="#" class="dropdown-toggle" data-toggle="dropdown" data-target=".dropdown">
-                                <img class="avatar img-rounded" src="@(requestInfo.user.get.avatarUrl)">
-                                @(requestInfo.user.get.fullName)
+                                <img class="avatar img-rounded" src="@(SecureSocial.currentUser.get.avatarUrl)">
+                                @(SecureSocial.currentUser.get.fullName)
                                 <b class="caret"></b>
                             </a>
                             <ul class="dropdown-menu">
@@ -59,10 +60,10 @@
 
                     <div class="nav-collapse collapse">
                         <ul class="nav">
-                            @navLink(name = "Method")
-                            @navLink(name = "Patterns")
-                            @navLink(name = "Ventures")
-                            @navLink(name = "Contact")
+                            <li><a href="@{routes.Application.method()}">Method</a></li>
+                            <li><a href="@{routes.Application.patterns()}">Patterns</a></li>
+                            <li><a href="@{routes.Application.ventures()}">Ventures</a></li>
+                            <li><a href="@{routes.Application.contact()}">Contact</a></li>
                         </ul>
                     </div>
                 </div>

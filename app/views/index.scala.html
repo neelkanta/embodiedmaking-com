@@ -1,10 +1,12 @@
-@()(implicit requestInfo: RequestInfo)
+@()(implicit request : Request[Any])
+
+@import securesocial.core.SecureSocial
 
 @main("Home") {
 <div id="myCarousel" class="carousel slide">
     <!-- Carousel items -->
     <div class="carousel-inner">
-        @if(!requestInfo.user.isDefined) {
+        @if(!SecureSocial.currentUser.isDefined) {
         <div class="item">
             <img src='@routes.Assets.at("img/carousel/participate.jpg")' alt="Participate image">
 
@@ -12,8 +14,7 @@
                 <div class="carousel-caption">
                     <h1>Sign in to participate</h1>
 
-                    <p class="lead">We believe in an open approach to our innovations. Like to help us solve real
-                        problems? Discuss on our ideas.</p>
+                    <p class="lead">We believe in an open approach to our innovations. Like to help us solve real problems? Discuss on our ideas.</p>
                     <a class="btn btn-large btn-primary" href="/authenticate/linkedin">Sign in</a>
                 </div>
             </div>
