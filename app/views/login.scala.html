@@ -1,0 +1,49 @@
+@(loginForm: Form[(String,String)], errorMsg: Option[String] = None)(implicit request: Request[Any])
+
+@import helper._
+@import securesocial.views.html._
+@import securesocial.core.Registry
+@import securesocial.core.AuthenticationMethod._
+@import securesocial.core.providers.UsernamePasswordProvider.UsernamePassword
+
+@views.html.main("Sign in") {
+    <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
+        <div class="container">
+            <h1>Sign in</h1>
+
+            <p class="lead">Enjoy our full content and participate</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="span12">
+                <section>
+
+                    @errorMsg.map { msg =>
+                        <div class="alert alert-error">@Messages(msg)</div>
+                    }
+
+                    @request.flash.get("success").map { msg =>
+                        <div class="alert alert-info">@msg</div>
+                    }
+
+                    @request.flash.get("error").map { msg =>
+                        <div class="alert alert-error">@msg</div>
+                    }
+
+                    <p>It is only possible to sign in using a LinkedIn account</p>
+
+                    @defining( Registry.providers.all.values.filter( _.id != UsernamePassword) ) { externalProviders =>
+                        @if( externalProviders.size > 0 ) {
+                            @for(p <- externalProviders) {
+                                @provider(p.id)
+                            }
+                        }
+                    }
+
+                </section>
+            </div>
+        </div>
+    </div>
+}

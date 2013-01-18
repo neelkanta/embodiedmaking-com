@@ -11,14 +11,14 @@ object Application extends Controller with SecureSocial {
   }
 
   def ventures = UserAwareAction { implicit request =>
-    Ok(views.html.comingSoon("ventures")).withSession(storeUri(request))
+    Ok(views.html.ventures()).withSession(storeUri(request))
   }
 
   def method = UserAwareAction { implicit request =>
     Ok(views.html.method(MethodSection.all())).withSession(storeUri(request))
   }
 
-  def methodSection(id: String) = SecuredAction { implicit request =>
+  def methodSection(id: String) = UserAwareAction { implicit request =>
     Ok(views.html.methodSection(MethodSection.all(), MethodSection.get(id), MethodSlide.all(id))).withSession(storeUri(request))
   }
 
