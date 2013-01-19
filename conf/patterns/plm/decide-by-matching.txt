@@ -1,4 +1,4 @@
-Decide by Matching|2
+Decide by matching|2
 
 Equate supply and demand with matching. Qualify customers upfront through their characteristics, and matching them with product characteristics.
 
@@ -6,4 +6,4 @@ Products rarely have a stable set of characteristics, and their characteristics 
 
 Therefore introduce product configurability extremely cautiously. If a single system requires a few configurable options, offer configuration through proprietary configuration settings. If a single system requires several configurable options, manage their configurations directly through source code developed in open languages. Avoid the use of central controllers that configure several systems simultaneously, and build awareness of configurations spanning multiple systems within each of those systems individually.
 
-The Few Skilled Gardeners and Three Champions collectively decide what to make configurable in a system,avoiding excessive configuration whenever possible. The configurability of a product is altered throughout its Ringed Growth.
+The Few skilled gardeners and Three Champions collectively decide what to make configurable in a system,avoiding excessive configuration whenever possible. The configurability of a product is altered throughout its Ringed growth.

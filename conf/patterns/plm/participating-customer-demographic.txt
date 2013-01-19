@@ -1,4 +1,4 @@
-Participating Customer Demographic|1
+Participating customer demographic|1
 
 The demographic develops the product. If you are developing a product for senior citizens, get senior citizens on board as product managers.
 
@@ -8,5 +8,5 @@ Therefore the product design process needs involvement from individuals who woul
 
 to be continued...
 
-Participating Demographic
+Participating demographic
 

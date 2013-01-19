@@ -1,4 +1,4 @@
-Specify to Operationalize|1
+Specify to operationalize|1
 
 Specify enough to build a prototype, and then stop. Grow the prototype enough to build a system, and then stop.
 
@@ -8,6 +8,6 @@ to be continued...
 
 to be continued...
 
-Specifying to Operationalize
+Specifying to operationalize
 
 

@@ -1,4 +1,4 @@
-Interdisciplinary Expertise|2
+Interdisciplinary expertise|2
 
 Individuals are encouraged to develop inter-disciplinary skills. Encourage generalists who can easily specialize.
 
@@ -6,4 +6,4 @@ Specialists are often required for product implementations given the technologic
 
 Therefore focus individuals within the enterprise to build expertise in multiple disciplines. Encourage data specialists to become process specialists, and process specialists to become business specialists. Encourage everyone to perform a multitude of varied tasks.
 
-Develop a Few Skilled Gardeners who can tackle almost any aspect of the product, starting from Change it with Confidence.
+Develop a Few skilled gardeners who can tackle almost any aspect of the product, starting from Change it with confidence.

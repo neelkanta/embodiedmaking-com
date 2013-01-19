@@ -1,4 +1,4 @@
-Three Product Champions|2
+Three product champions|2
 
 A product needs to be championed by at least 3 people in order to accepted as a candidate for development.
 
@@ -6,5 +6,5 @@ Poorly concepted products are difficult to implement, and poorly implemented pro
 
 A product needs to be championed by at least 3 people in order to accepted as a candidate for development. One person close to the market with knowledge of how to market and sell the product, one person close to enabling technology with knowledge of how to realize and implement the product, and one person close to operations with knowledge of how to provide customer service, support, and stability to the product.
 
-Working with the Participating Customer Demographic and a Few Skilled Gardeners, the three individuals concept, prototype, develop, and operate the product.
+Working with the Participating customer demographic and a Few skilled gardeners, the three individuals concept, prototype, develop, and operate the product.
 

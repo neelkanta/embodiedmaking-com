@@ -1,4 +1,4 @@
-Fortified Town|3
+Fortified town|3
 
 Competitive differentiators need to be protected. Market access to customers and suppliers through open and supervised gates.
 
@@ -6,6 +6,6 @@ Telecommunications companies increasingly operate under intense competition with
 
 Therefore protect new product ideas and competitive advantages through a secure communication environment. Products that differentiate an operator from the competition should be developed internally, and products that are commoditized should be procured from common vendors. Emphasize the importance of secure communications with all employees who engage with competitors in their collaborative roles for policies and standards. In areas where resources are shared between competitors, such as shared number porting repositories or the implementation of inter-network traffic, work with each other to establish best practices. Engage with common vendors in competitive areas with caution, and ensure that vendors maintain firm segregations between customers. In areas of collaboration with competitors, engage with common vendors on the basis of best practices established through open communications. Establish and engage in communities of non-competitive telecommunications operators to exchange best practices.
 
-Establish a secure environment within the organization, and regulate market access to customers and suppliers through supervised gates. Maintain Low-Walled Town Communities and establish Trusted Circles within this organization. Use initiatives where the Whole Town Participates to explain the importance of confidential information and keeping customer data secure at the Town Well.
+Establish a secure environment within the organization, and regulate market access to customers and suppliers through supervised gates. Maintain Low-walled town communities and establish Trusted circles within this organization. Use initiatives where the Whole town participates to explain the importance of confidential information and keeping customer data secure at the Town well.
 
-Fortified Walls
+Fortified walls

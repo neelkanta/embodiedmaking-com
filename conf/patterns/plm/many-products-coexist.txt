@@ -1,4 +1,4 @@
-Many Products Coexist|1
+Many products coexist|1
 
 Products are aware of each other and coexist together. Products broadcast events to other Products.
 
