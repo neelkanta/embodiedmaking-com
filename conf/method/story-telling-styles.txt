@@ -1,10 +1,10 @@
-Story_Telling_Styles_1
+story-telling-styles-1
 
 Try and capture the voice of the participants as much as possible in the stories. Pick a style appropriate to the individual who told you the story, and the organizational culture where you are developing the system. Stories should capture the environment through narratives, and experiences through dialogues. Narratives can be told in the 3rd person or in the 1st person. For example, a designer can maintain a narrative of their personal experience of an environment in the form of a journal. Dialogues should capture the personalities of the individuals participating in conversations, emotions, and the context in which they occur. Woven together, narratives and dialogues give strong foundations for system design.
 
 Stories must be appealing to read and must capture the voice of the narrator. Verbatim representations of stories that are faithful to every word and pause uttered by a narrator may not necessarily appeal to a mass audience. On the other hand, the voice of the narrator must live in the story derived from the original narration.
 
-Story_Telling_Styles_2
+story-telling-styles-2
 
 In a culture that is straight-forward, to-the-point, and results-oriented, consider using a precise and descriptive style of narrative peppered with some humor.
 <p>
@@ -14,7 +14,7 @@ The main hallway of the Sternwood Place was two stories high. Over the entrance 
 
 Stories, in their telling, must capture the narrative style of the original storyteller. In operational environments, such as a manufacturing plant or a warehouse, the use of language tends to be brief and to the point. In the Banking and Insurance industries, language tends to be more formal. In the Telecommunications industry there is a tendency to use a lot of acronyms.
 
-Story_Telling_Styles_3
+story-telling-styles-3
 
 In a culture that is strongly governed with formal policies and rules, consider using a more formal, serious, and precise style of narrative.
 <p>
@@ -24,7 +24,7 @@ First he wanted to stand up quietly and undisturbed, get dressed, above all have
 
 Communications, ranging from emails to presentations, tends to vary in style in each of these environments. Stories must be able to reflect the voices in these environments as they are.
 
-Story_Telling_Styles_4
+story-telling-styles-4
 
 In a culture that is motivated by social change at a grassroots level, consider using a descriptive, engaging, and lyrical style evoking the need for change.
 <p>
@@ -34,7 +34,7 @@ Once California belonged to Mexico and its land to Mexicans; and a horde of tatt
 
 It is often tempting as analysts to interpret stories through our own personal communications styles, and this must be avoided in order to capture the real voices in the organization where systems are to reside. For instance, an analyst who practices concise communications by “omitting needless words” may be tempted to be as succinct as possible when writing up a story. An individual’s more verbose choice of phrases to describe things and situations can be omitted in this process, and it is often these details in the story that provide greatest insight. Another analyst might feel the need to iron out coarseness or profanity in a story in order to make it more politically correct.
 
-Story_Telling_Styles_5
+story-telling-styles-5
 
 Similarly, dialogues can capture emotion and reflect culture through the use of style.
 <p>
@@ -56,7 +56,7 @@ This story used for designing an auction system captures the anxiety experienced
 
 Readers of these sanitized stories will not be able to construct an image of the environment as it really is, and this often results in the design of systems inappropriate to their environment.
 
-Story_Telling_Styles_6
+story-telling-styles-6
 
 The best stories are those stay with us for the entire duration of the design process. The pivotal nature of some stories become apparent the moment we hear them, and it is important that designers are conscious of them throughout the design process. The importance of other stories don’t become apparent until later. It is important to capture a large body of stories continuously throughout the design process and to weave them together with common threads.
 

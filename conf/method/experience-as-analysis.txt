@@ -1,34 +1,34 @@
-Experience_As_Analysis_1
+experience-as-analysis-1
 
 In Embodied Making, we try and integrate both experience and analysis into a single structure. To achieve this, we use methods to reflect experiences throughout the design lifecycle, and utilize analytical structures that are appropriate to the experiences in the design space. This means we don’t have a single analytical structure to rule them all, but develop a portfolio of tools suitable for situations and occasions.
 
 In embodied making, the only experience that really matters is immediate experience. This does not mean we do not value individuals with a lot of past experience, which is often reflected in things like their work history and their curriculum vitaes. We value their ability to deal with complex situations in the past, and hope they are first and foremost able to bring their attitude in solving challenges in the past to solving challenges in the present.
 
-Experience_As_Analysis_2
+experience-as-analysis-2
 
 Any analysis, and solutions derived from that analysis, will create new experiences. Our analysis, and the solutions we derive from them, must first and foremost solve the challenges we face in our immediate experience. Our memory of the past is selective and often biased. Our understanding of the future is mixture of hope and insecurity. The only truth is that of immediate experience.
 
 This means that participants do not have the attitude of “I’ve done it all before”, but of, “I’ve seen some things before, and I expect to see different things now. My exact solutions of the past will probably not solve things in their exact form in the present, but may provide insight in the form of patterns, approach, and my attitude to new problems.”
 
-Experience_As_Analysis_3
+experience-as-analysis-3
 
 Our ability to define facts is based on our perception of immediate experience. Our perception isn’t absolute truth, although to us it might feel so, and as designers, we must become conscious of the personal bias, dogma, jargon, and belief systems we bring to the table. We are first and foremost tasked with designing systems that provide balance in the environments they are realized leaving aside our personal agendas. Our observations are perceptions that are intermingled with our own personal value systems.
 
 Designs must also ensure they do not set about to be “future-proof”. The future only exists in terms of our hopes and anxieties, and stable designs must be able to first solve problems of the present.
 
-Experience_As_Analysis_4
+experience-as-analysis-4
 
 Observers have their own world-view, and have a tendency to treat their perceptions seen through their world-views as facts. Designers as observers have a tendency to project their world-views into the systems they design.
 
 Complex systems involving humans rarely have repeatable structures. Each participant in the design process must be conscious of their personal value systems, or the things they consider important in life, and how these values end up being reflected in systems.
 
-Experience_As_Analysis_5
+experience-as-analysis-5
 
 The truth value of an experience is reflected in the number of stable inferences we can make from them that are true for similar experiences in similar situations. These stable inferences can be statements of attitude, human relationships, facts about the environment that influence systems, and practical constraints. In embodied making, these stable inferences are referred to as forces.
 
 Embodied making is inspired by thoughts and works of Charles Peirce, William James, John Dewey, Nietzsche, Husserl, Alfred Whitehead, Heidegger, Christopher Alexander, Barnett Pierce, Maurice Merleau-Monty, and several other contemporary thinkers. It also finds inspiration in improvisational forms of art like Jazz.
 
-Experience_As_Analysis_6
+experience-as-analysis-6
 
 Designers must be observers with heightened sensitivity, faithful recorders of the experiences of others, be able to extract stable inferences from experiences, create designs that solve the situations encountered in the recorded experiences, with the ability to reflect on the efficacy of their own designs, dispensing with them when the designs are inapplicable and applying solutions with studied judiciousness, and constantly building their consciousness of their own design bias and world views. Emphasize experience and forces, not the designer and their perception.
 

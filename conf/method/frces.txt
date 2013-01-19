@@ -1,34 +1,34 @@
-Forces_1
+frces-1
 
 Forces are things that shape their environments to be the way they are. They give birth to experiences, such as the forces that make us book the holiday of our dreams at great expense, provide twists in the flow of an experience, such as the forces that choose a product to purchase from a variety of available products, sustain certain experiences over time, such as the forces that make us form orderly queues while waiting to be served, or bring an experience to an end to see the beginning of another, such as the motivations behind walking away before a performance has finished.
 
 The easiest way to get someone to discuss forces is to ask why an initiative will or will not work. For instance, if you ask a seasoned professional who has worked in a environment why a new initiative will or will not work, chances are they will start discussing patterns of human behaviour in that environment. These are examples of forces.
 
-Forces_2
+frces-2
 
 Forces can be reflected in motivations, such as the desire to be compensated for providing a service. They can be statements of fact, such as the presence of a high population density. They could be hopes and anxieties, such as the desire not to lose our baggage while traveling or meeting a taxi driver who charges us fairly in an unfamiliar city. They can reflect dominant values, such as the desire for security or an aversion to feeling vulnerable.
 
 Examples of motivation-related forces are: Desire to help tourists find directions; Desire for residents to have their city perceived as friendly; Desire for shop owners to have returning customers; Desire for shop owners to have customers recommend their products and services to other prospects; Tendency for customers to desire diversity.
 
-Forces_3
+frces-3
 
 Some forces are rational, tangible, or measurable. These forces follow the logical structures of cause and effect, and their effect on the environments where they exist can be reasonably predictable. For instance, the repeated failure of a service over time will see falling demand for that service, and making a service extremely reliable comes at a great cost. These are incongruent forces that can be balanced with judging the right service level for the price customers of the service are willing to pay.
 
 Examples of rational, tangible, and measurable forces are: Tendency for business travellers to require wifi coverage; Tendency for business travellers to use hotels as extended places of work; Tendency for business travellers to use internet connectivity to perform VOIP calls; Desire by hotels to charge for telephone calls; Desire for fair hotel rates.
 
-Forces_4
+frces-4
 
 Other forces are often irrational, intangible, or unmeasurable, such as personal beliefs and prejudices, but are extremely influential in determining the course of experiences and nature of the systems within which they reside. For instance, if the objective of the design process is to create an object to facilitate communications, and there exists a general cultural aversion to specific colors (“black is an unlucky color”) or shapes (“sharp edges are bad feng-shui”), then these are forces that will influence the form of the solution.
 
 Other examples are: Belief that disruptive innovations will not change existing business processes; Prevalence of caste-thinking; Tendency for caste-oriented societies to find new forms of caste (e.g. wealth, education, etc.); Tendency to under-perform when over-rewarded; Tendency to perceive european cars as more prestigious.
 
-Forces_5
+frces-5
 
 There is a tendency for several forces to co-exist together, sometimes to the extent of appearing as a single force. Forces that initially seem rational, tangible, or measurable are often linked to forces that are irrational, intangible, or immeasurable. For example, consider the force where budgets are allocated at the beginning of each year for all departments in a company, and there exists a tendency for department heads to over-estimate their needs, as well as a tendency for departments to get budget allocations based on historical spending. These forces are linked to the belief that the spending habits of the past are a basis for forecasts of future financial needs.
 
 Consider the following examples: Desire not to pay for thingsBelief in a supreme being that can decide the future; Desire for processes to be future-proof; Belief that business requirements will remain stable. Here the belief that the future can be accurately predicted leads to other...
 
-Forces_6
+frces-6
 
 Forces rarely exist in an elemental or individual state, and they typically exist in their environments are often intricately intertwined with each other.
 For example, consider work environments where there is a tendency for individuals to distance themselves from failure have the following forces intricately wound together: Need to know who was responsible for causing an issue; Need to know who is hindered by an issue; Desire to blame individuals when issues occur; Perception of negative consequences for failure; Aversion of feeling vulnerable; Insecurity at being able to retain existing position; Desire to retain existing position.

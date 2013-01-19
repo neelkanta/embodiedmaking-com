@@ -1,10 +1,10 @@
-Stories_1
+stries-1
 
 Stories are one of the most reliable and time-tested means we have to reflect experience.
 
 Imagine a group of early humans, clustered around a fire after a day of hunting. Perhaps the day went well, and stories are told about how the hunters chased their prey. Perhaps the night sky is clear, and myths are woven about the position of the stars. Stories are probably as old as humanity itself.
 
-Stories_2
+stries-2
 
 Stories can be short excerpts from broader conversations that convey situation, roles, conflicts, opportunities, etc.
 <p>
@@ -25,7 +25,7 @@ Renault. Is it really so cheap to run this old car?”
 
 A story is always told through someone’s perspective, reflecting the personal experience of an individual rather than a shared understanding. Their primary purpose is the capture experience as a form of providing insight. Good stories give clues on what might have happened before or after the story, its setting, the nature of its characters, the emotions experienced by the characters, the spaces where things occur, and the patterns of events that occur in those spaces.
 
-Stories_3
+stries-3
 
 Or they could be longer episodes...
 <p>
@@ -35,7 +35,7 @@ Or they could be longer episodes...
 
 Setting provides clues to readers about the environment and the nature of the things in that environment. Dialogues provide clues about the nature of the interactions in those spaces. Turns and twists in the story provide insights on the nature of the events, and emotions provide clues on how people tend to feel in specific situations.
 
-Stories_4
+stries-4
 
 The stories should be captured from the participants and stakeholders of the system.
 <p>
@@ -49,13 +49,13 @@ The stories should be captured from the participants and stakeholders of the sys
 
 Stories should be recorded as faithfully as possible, sticking to the original narrative of the person who told the story.
 
-Stories_5
+stries-5
 
 The best stories follow the form of a narrative. They give strong contexts about the environment, the people involved, and typical situations.
 
 It may sometimes feel prudent to edit the story to remove political sensitivities or profanity. At the same time, political incorrectness and profanity have a tendency to accentuate facts as they are experienced, and the analyst must be able to balance inclusion or omission of grittier details of a story.
 
-Stories_6
+stries-6
 
 The stories we choose to capture must be directly related to the system we are trying to design. At the earlier stages of the design process, it is difficult to determine with which stories are relevant. It is best to capture a rich tapestry of stories to reflect the experiences of a wide variety of participants and stakeholders within the system. In earlier stages of design, it is best to capture longer narratives, as the challenges of the existing ways of work tend not to be completely apparent. As learnings and understandings of the existing system sharpen, stories can be made more succinct and extracted from broader narratives. Participants who join later in the design process should be urged to read the stories to understand the design context.
 

@@ -1,16 +1,16 @@
-Creating_a_Tapestry_of_Stories_1
+creating-a-tapestry-of-stories-1
 
 The design of complex systems in an organization can involve several perspectives, Our engagement as designers doesn’t always give us a vantage point over the entire organization, and the systems we are engaged to design often have a limited mandate. Despite boundary restrictions, embodied making recommends getting coverage of stories beyond narrow walls.
 
 Organizational representations and models are useful in ensuring adequate story coverage. Organizational charts, which tend to represent roles and responsibilities hierarchically, can be used to determine the relevant departments from which stories can be gathered.
 
-Creating_a_Tapestry_of_Stories_2
+creating-a-tapestry-of-stories-2
 
 An adequate coverage of stories can be achieved by understanding the complete network involved in the system. Networks can be represented as roles, interactions between roles and entities involved in interactions. Interactions provide insights where stories could occur, and interactions are where forces manifest themselves in their most obvious forms.
 
 For large-scale systems it is often difficult to identify exact boundaries for their applicability within organizations. It is the rare department within an organization that exists in complete isolation from other departments, and it is better to err on the side of obtaining more stories than fewer stories.
 
-Creating_a_Tapestry_of_Stories_3
+creating-a-tapestry-of-stories-3
 
 When soliciting stories, avoid detailed and structured questions, such as those in the form of interviews. The key to obtaining insights is to let conversations emerge. If we approach people with potential stories with a pre-planned interview structure down to the most minute questions, chances are we will only hear the kinds of answers we already expect, and be rarely surprised. Ask people simple questions along the following lines:
 <p>
@@ -19,19 +19,19 @@ Tell me about a day in your life at work? What did you do yesterday? Are all day
 
 The usage of value networks, which capture roles, tangible interactions, and intangible interactions. They can also be expanded to cover the entities used in the interactions, and the purpose behind a set of interactions. The coverage of stories should exist across the entire value network. The development of a value network typically occurs in a process parallel to the capturing of stories.
 
-Creating_a_Tapestry_of_Stories_4
+creating-a-tapestry-of-stories-4
 
 Try and find a “form” that seems to tie the stories together. As you listen to more and more stories, you will need to interconnect them into some manageable form. These forms can represent the organization you are within, or perhaps be representative of the form of the system you wish to implement.
 
 Although value networks are usually restricted to two dimensions , and given that it is difficult to cover every role, interaction, purpose, and entity within an organization, they can often provide insights on the underlying form of an organization. Command and control organizations tend to have central points and resemble a many-petalled flower. Product development tends evolve ideas into working reality, and often resembles the form of growing concentric circles not unlike the form of a nautilus. Network organizations tend to form bulbous masses in areas of close collaboration, with thinner connections to areas of infrequent collaboration.
 
-Creating_a_Tapestry_of_Stories_5
+creating-a-tapestry-of-stories-5
 
 If possible, try and index your stories on this emergent or suggestive form for rapid referencing. Representing story coverage ensures that the designers and stakeholders understand how many conversations have occurred, and how many more are needed. As the same story can touch several parts of an organization, the story can be indexed from several parts of this emergent form.
 
 
 
-Creating_a_Tapestry_of_Stories_6
+creating-a-tapestry-of-stories-6
 
 Creating a good tapestry of stories requires addressing several perspectives. A single perspective does not necessarily help create stable systems. Conversely, designer should be conscious of trying to create designs by consensus (“a horse is a camel designed by committee” ). John Godfrey Saxe’s poem of the blind men and the elephant based on the sufi fable serves to remind us of understanding the limitations of a few perspectives.
 

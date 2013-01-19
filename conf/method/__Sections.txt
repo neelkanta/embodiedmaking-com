@@ -30,26 +30,26 @@ frameworks-before-facts
 Frameworks before facts
 What happens if we place frameworks before facts?
 
-Experience_Before_Analysis
+experience-before-analysis
 Experience before analysis
 What happens if we lay emphasis only to experience?
 
-Experience_As_Analysis
+experience-as-analysis
 Experience as analysis, analysis as experience
 How we try and balance both experience and analysis.
 
-Stories
+stries
 Stories
 What are stories?
 
-Story_Telling_Styles
+story-telling-styles
 Story-telling styles
 How do we choose to tell stories?
 
-Creating_a_Tapestry_of_Stories
+creating-a-tapestry-of-stories
 Creating a tapestry of stories
 Collecting a rich base of interconnected stories as the basis of our designs.
 
-Forces
+frces
 Forces
 What are forces?
