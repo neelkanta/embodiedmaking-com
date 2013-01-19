@@ -34,4 +34,4 @@ Themed_Areas
 Three_Product_Champions
 Town_Well
 Trusted_Circles
-Whole_Town_Participates
+whole-town-participates
