@@ -21,7 +21,7 @@ many-products-coexist
 participating-customer-demographic
 plant-in-a-single-garden
 product-markers
-prpedia
+productpedia
 pruning-products
 recast-moulds
 repurpose-equipment
