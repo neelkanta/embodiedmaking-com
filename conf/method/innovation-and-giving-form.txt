@@ -1,4 +1,4 @@
-Innovation_and_Giving_Form_1
+innovation-and-giving-form-1
 
 Where do "good" ideas come from? When is a solution innovative? Innovators are able to observe patterns of social changes before and as they occur, and they create products that fill the needs brought about by social changes. For instance, the instant camera managed to solve a lot of needs brought about by social changes in how families recorded moments in the 1950s.
 Photographs can only be seen after film has been processed; Impatience of waiting for film to be processed; Many exposures have to be taken before a roll of film can be processed; Desire to have good pictures to reflect good moments; Film is relatively expensive; Desire to share pictures with others who were not there.
@@ -6,7 +6,7 @@ Photographs can only be seen after film has been processed; Impatience of waitin
 
 As we think about the forces, and the interactions between forces, ideas will flow on how to resolve them. Each idea should be written down as a solution component, examining how it helps resolves the immediate forces we have considered, and all the forces that emerge afterwards. There is no fixed sequence on writing any of them down.
 
-Innovation_and_Giving_Form_2
+innovation-and-giving-form-2
 
 Similarly, King Gilette recognized social changes in families in the early 1900s and provided a product that fulfilled the needs of families that increasingly
 spent less time together.
@@ -14,27 +14,27 @@ Fathers usually teach sons how to shave; Teaching sons how to shave is an import
 
 John Kemp Starley’s invention of the Rover Safety Bicycle in 1885 was a stark departure from the other bicycles of the time. Called a safety bicycle because the other contemporary bikes, such as the Penny Farthing, created unstable conditions for the rider by forcing them to ride at a great height while delivering both power and steering into the large front wheel.
 
-Innovation_and_Giving_Form_3
+innovation-and-giving-form-3
 
 If the social conditions around a product don’t see drastic changes, the product itself tends to remain stable. Enhancements to the original product tends to be around reinforcing the original concept, and resolving the incidental forces experienced by the usage of the product.
 Tendency to shave in the morning; Lack of time in the morning; Desire to show up at work shaved; Lathering-up takes time.
 
 Within 10 years of the initial invention, the basic form of the bicycle as we know it today recognizably emerged. In Starley’s words, "The main principles that guided me in making this machine were to place the rider at the proper distance from the ground, to place the seat in the right position in relation to the pedals, to place the handles in such a position in relation to the seat that the rider could exert the greatest force upon the pedals with the least amount of fatigue."
 
-Innovation_and_Giving_Form_4
+innovation-and-giving-form-4
 
 The purpose of design is to give form to ideas. The form of the product is shaped by the experience users have with it. The expectations of product users are a big influence on the form a product takes. Consider that the first cars looked like the last horse-drawn carriages. Changes in fuel supply, technological advances, changes in work and home cultures, and other social changes have seen the form of automobiles change continuously.
 
 The design of a bicycle is a convergent problem, where attempted solutions gradually converge on one solution or answer.
 
-Innovation_and_Giving_Form_5
+innovation-and-giving-form-5
 
 In some cases, the social conditions to design a product remain more or less stable (e.g. how people shave), and in other cases, there is continuous social change around the product necessitating its continuous evolution. In order to create innovative products capable of growth, the design process must be able to capture stable social patterns, and those that see continuous change.
 Only after a few years of the first successful flight, airplanes were being used for war, transporting mail, and carrying passengers.
 
 Automobiles and aircraft, on the other hand, have seen several transformations in their designs due to the changing contexts of fuel availability and costs, extensions to the original design based on purpose (transporting commuters, families, holiday-makers, usage for war, transporting goods, etc.), increased efficiencies, and new requirements for speed and comfort.
 
-Innovation_and_Giving_Form_6
+innovation-and-giving-form-6
 
 Designing systems embraces greater complexity than products, and creating stable systems necessitates a thorough understanding of the social conditions where they are situated.
 

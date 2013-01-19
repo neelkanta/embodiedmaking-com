@@ -1,4 +1,4 @@
-An_Applied_Example_1
+an-applied-example-1
 
 The process of design with embodied making starts with listening to people in the space where we want our designs to live and rest. Stories are anecdotes as people relate them to us, and these are faithfully recorded as they are told to us.
 <ol>
@@ -12,7 +12,7 @@ The process of design with embodied making starts with listening to people in th
 
 Stories should be gathered from several perspectives. In the example of the meeting room, stories from the users of meeting rooms, building security, receptionists, moderators of meetings, visitors to the building to who come for a meeting, maintenance staff, or cleaning staff will help create a rich tapestry as the basis of designs.
 
-An_Applied_Example_2
+an-applied-example-2
 
 What induces people to behave in the way they do in their environments? Or motivates them to decide on a particular course of action? These factors are called forces in embodied making. We can identify some of these forces from the stories:
 <ul>
@@ -34,13 +34,13 @@ What induces people to behave in the way they do in their environments? Or motiv
 
 As we catalog more and more stories from different perspectives, more and more forces will emerge. The objective of enumerating forces isn’t to try and find as many forces as possible. In order to give designers a feeling of the space where their designs will live and rest, the objective is to capture an adequate number of forces for reflection.
 
-An_Applied_Example_3
+an-applied-example-3
 
 If we are able to find an elegant solution that is both stable and reliable, and this solution would be able to balance all of these forces (let’s assume for now that these stories and forces are complete), we would have created a system that would fulfill the requirements of sharing meeting rooms effectively. We can gain insight into how these forces exist in their environments by exploring how they interact with each other, by placing a (+) sign for a pleasant experience, a (-) sign for an unpleasant experience, and (~) for a neutral experience.
 
 Understanding the interactions between forces helps designers live and experience them. For each interaction, try and imagine situations where those interactions between forces would occur. By thinking about each interaction, you will increasingly understand how all of these forces co-exist in the same space. Understanding the complex interactions has a meditative quality, and after while, a feeling of “living” the forces occurs for the designer.
 
-An_Applied_Example_4
+an-applied-example-4
 
 As designers, we must also be conscious of our own will, and that our involvement in the design process, and the systems we realize from those designs, actively transform the environment.
 <ul>
@@ -54,13 +54,13 @@ There is no clear or sharp distinction between wills and forces. They come from 
 
 Throughout this process, the personal goals and objectives of the designer or designers should be explicitly stated as wills. Interactions between wills and forces reveal their conduciveness to exist in the same space.
 
-An_Applied_Example_5
+an-applied-example-5
 
 An understanding of the forces and wills gives insight into the solutions that would be most likely to resolve them.
 
 As we think about the forces, and the interactions between forces, ideas will flow on how to resolve them. Each idea should be written down as a solution component, examining how it helps resolves the immediate forces we have considered, and all the forces that emerge afterwards. There is no fixed sequence on writing any of them down.
 
-An_Applied_Example_6
+an-applied-example-6
 
 And finally, we can realize and unify the solution using a combination of analogies and metaphors. For example, using the metaphor of a petting zoo...
 
