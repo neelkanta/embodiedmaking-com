@@ -1,34 +1,34 @@
-Frameworks_Before_Facts_1
+frameworks-before-facts-1
 
 We could treat analysis and frameworks as more important the experiences with the assumption that individual experiences are not that unique and can be mapped to common abstractions.
 
 Aristotle laid the emphasis of being able to categorize all things, and if it was not possible categorize something, it was “no thing” or nothing. Galileo laid emphasis on scientific detachment, but didn’t offer a structure for re-engagement to see the consequences of a scientific solution.
 
-Frameworks_Before_Facts_2
+frameworks-before-facts-2
 
 Using this approach, we would assume that all experiences can be categorized into the structures of our analysis utilizing the guidance of a framework.
 
 Issac Newton believed that the universe is about exactness. For every action, there is an equal reaction. If we turn a key on a complex mechanism once, and it has the reaction of turning thrice, then all we need to figure the exact components that are contributing to that reaction, and we will understand the system.
 
-Frameworks_Before_Facts_3
+frameworks-before-facts-3
 
 In practice, there are occasions where our analysis based on a framework is limited, as the framework only gives us the means to capture specific aspects of experience. Portions of experience can be ignored, uncaptured, or unknown.
 
 Rene Descartes, most well known for his statement “Cogito Ergo Sum” believed the mind to exist separately from the body. This encouraged detachment from the physical world, and placed thought in a plane separate from experience.
 
-Frameworks_Before_Facts_4
+frameworks-before-facts-4
 
 Yet we desire simple solutions for complex problems, and considering every possible experience means solutions can never be realized. Ideally, it is desirable to have frameworks where experience can be easily categorized and solutions can be objectively designed.
 
 Individually, the views of these 4 thinkers are very useful. Taken together, they lend the appearance of complex situations in organizations and systems being "easily categorized".
 
-Frameworks_Before_Facts_5
+frameworks-before-facts-5
 
 On the other hand, applying too many frameworks leads to fragmented and sometimes conflicting results. Applying the methods from one framework lead to a certain solutions, and applying another leads to other solutions. The resulting design will seem incoherent, inconsistent, and unstable.
 
 Compartments and operating within "narrow domestic walls", encourages detachment from solutions, enforcement of analytical solutions independent of experience ("if people don't follow ideal process we’ve developed without consulting them, we should penalize them"), the belief that organizations and systems are analogous to machines or precise assembly lines, and that there is a perfect ideal available beyond the current reality.
 
-Frameworks_Before_Facts_6
+frameworks-before-facts-6
 
 And as the limitations of the solution become apparent, the resulting system’s lifecycle is a series of life-long patches, none of which produce wholesome results. Creating new systems with the same rationality only result similar systems built with newer technology.
 

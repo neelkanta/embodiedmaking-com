@@ -22,11 +22,11 @@ embodied-makings-approach
 Embodied Making's approach
 How embodied making approaches the design of complex systems.
 
-Of_Experience_and_Analysis
+of-experience-and-analysis
 Of experience and analysis
 How we understand experience through analysis and frameworks.
 
-Frameworks_Before_Facts
+frameworks-before-facts
 Frameworks before facts
 What happens if we place frameworks before facts?
 
