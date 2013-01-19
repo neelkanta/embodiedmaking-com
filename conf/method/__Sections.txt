@@ -38,7 +38,7 @@ experience-as-analysis
 Experience as analysis, analysis as experience
 How we try and balance both experience and analysis.
 
-stries
+stories
 Stories
 What are stories?
 
@@ -50,6 +50,6 @@ creating-a-tapestry-of-stories
 Creating a tapestry of stories
 Collecting a rich base of interconnected stories as the basis of our designs.
 
-frces
+forces
 Forces
 What are forces?
