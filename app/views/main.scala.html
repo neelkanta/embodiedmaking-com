@@ -1,4 +1,5 @@
 @(title: String)(content: Html)(implicit request : Request[Any])
+
 @import securesocial.core.SecureSocial
 
 @import org.joda.time.LocalDate
@@ -62,7 +63,7 @@
                     <div class="nav-collapse collapse">
                         <ul class="nav">
                             <li><a href="@routes.Application.method()">Method</a></li>
-                            <li><a href="@routes.Application.patterns()">Patterns</a></li>
+                            <li><a href="@routes.Application.patternsOverview()">Patterns</a></li>
                             <li><a href="@routes.Application.ventures()">Ventures</a></li>
                             <li><a href="@routes.Application.contact()">Contact</a></li>
                         </ul>

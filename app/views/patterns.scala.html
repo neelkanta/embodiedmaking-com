@@ -1,4 +1,4 @@
-@(patterns: List[Pattern])(implicit request : Request[Any])
+@(language: PatternLanguage)(implicit request : Request[Any])
 
 @import tags._
 
@@ -7,20 +7,20 @@
     <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
         <div class="container">
             <h1>Patterns</h1>
-            <p class="lead">A Product Lifecycle Management Pattern Language for Telecommunications Operators</p>
+            <p class="lead">@(language.description)</p>
         </div>
     </header>
 
     <div class="container">
         <div class="row">
-            @sidebar("patterns", patterns, None)
+            @sidebar("patterns/" + language.id, language.patterns, None)
 
             <div class="span9">
                 <section id="overview">
                     <ul class="thumbnails">
-                        @patterns.map { pattern =>
+                        @language.patterns.map { pattern =>
                             <li class="span3">
-                                <a href='@{"/patterns/"}@pattern.id' class="pattern thumbnail">
+                                <a href='@{"/patterns/" + language.id + "/" + pattern.id}' class="pattern thumbnail">
                                     <div class="caption pagination-centered"><strong>@pattern.title</strong></div>
                                     <div class="pagination-centered">@Html({"&diams; " * pattern.maturity})</div>
                                     <div class="caption">@pattern.summary</div>

@@ -13,8 +13,9 @@ GET     /method                     controllers.Application.method
 GET     /method/:id                 controllers.Application.methodSection(id: String)
 
 # Patterns page
-GET     /patterns                   controllers.Application.patterns
-GET     /patterns/:id               controllers.Application.pattern(id: String)
+GET     /patterns                   controllers.Application.patternsOverview
+GET     /patterns/:language         controllers.Application.patterns(language: String)
+GET     /patterns/:language/:id     controllers.Application.pattern(language: String, id: String)
 
 # Contact page
 GET     /contact                    controllers.Application.contact

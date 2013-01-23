@@ -1,4 +1,4 @@
-@(patterns: List[Pattern], pattern: Pattern)(implicit request : Request[Any])
+@(language: PatternLanguage, pattern: Pattern)(implicit request : Request[Any])
 
 @import tags._
 
@@ -6,13 +6,13 @@
     <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
         <div class="container">
             <h1>Patterns</h1>
-            <p class="lead">@pattern.title</p>
+            <p class="lead">@language.description</p>
         </div>
     </header>
 
     <div class="container">
         <div class="row">
-            @sidebar("patterns", patterns, Some(pattern))
+            @sidebar("patterns/" + language.id, language.patterns, Some(pattern))
 
             <div class="span9">
                 <div class="page-header">
@@ -21,7 +21,9 @@
                 </div>
 
                 <div class="pattern">
-                    <p class="pagination-centered"><img src='@routes.Assets.at("img/patterns/plm/" + pattern.id + ".jpg")' alt="@pattern.title"></p>
+                    <p class="pagination-centered">
+                        <img src='@routes.Assets.at("img/patterns/" + language.id + "/" + pattern.id + ".jpg")' alt="@pattern.title">
+                    </p>
                     <p class="pagination-centered">@Html({"&diams; " * pattern.maturity})</p>
                     <h2><small>Problem</small></h2>
                     <p>@pattern.problem</p>
@@ -31,15 +33,17 @@
                     <h2><small>Pattern language</small></h2>
                     @Html({
                         var patternLanguage: String = pattern.patternLanguage
-                        patterns.foreach(p => p.synonyms.foreach(s => {
-                            patternLanguage = patternLanguage.replaceAll("(?i)" + java.util.regex.Pattern.quote(s), "<a href='" + {"/patterns/"} + p.id + "'>" + s + "</a>")
+                        language.patterns.foreach(p => p.synonyms.foreach(s => {
+                            patternLanguage = patternLanguage.replaceAll(
+                                "(?i)" + java.util.regex.Pattern.quote(s),
+                                "<a href='/patterns/" + language.id + "/" + p.id + "'>" + s + "</a>")
                         }))
                         patternLanguage
                     })
                 </div>
 
                 <hr/>
-                @navigation("patterns", patterns, pattern)
+                @navigation("patterns/" + language.id, language.patterns, pattern)
             </div>
         </div>
     </div>

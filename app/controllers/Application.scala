@@ -22,12 +22,18 @@ object Application extends Controller with SecureSocial {
     Ok(views.html.methodSection(MethodSection.all(), MethodSection.get(id), MethodSlide.all(id))).withSession(storeUri(request))
   }
 
-  def patterns = UserAwareAction { implicit request =>
-    Ok(views.html.patterns(Pattern.all())).withSession(storeUri(request))
+  def patternsOverview = UserAwareAction { implicit request =>
+//    Ok(views.html.patternsOverview()).withSession(storeUri(request))
+    Redirect("/patterns/plm")
   }
 
-  def pattern(id: String) = SecuredAction { implicit request =>
-    Ok(views.html.pattern(Pattern.all(), Pattern.get(id))).withSession(storeUri(request))
+  def patterns(language: String) = UserAwareAction { implicit request =>
+    Ok(views.html.patterns(PatternLanguage.get(language))).withSession(storeUri(request))
+  }
+
+  def pattern(language: String, id: String) = SecuredAction { implicit request =>
+    val patternLanguage: PatternLanguage = PatternLanguage.get(language)
+    Ok(views.html.pattern(patternLanguage, patternLanguage.getPattern(id))).withSession(storeUri(request))
   }
 
   def contact = UserAwareAction { implicit request =>
