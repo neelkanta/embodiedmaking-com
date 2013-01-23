@@ -23,8 +23,7 @@ object Application extends Controller with SecureSocial {
   }
 
   def patternsOverview = UserAwareAction { implicit request =>
-//    Ok(views.html.patternsOverview()).withSession(storeUri(request))
-    Redirect("/patterns/plm")
+    Ok(views.html.patternLanguages(PatternLanguage.get("plm"))).withSession(storeUri(request))
   }
 
   def patterns(language: String) = UserAwareAction { implicit request =>

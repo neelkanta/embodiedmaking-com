@@ -9,7 +9,7 @@ case class PatternLanguage(id: String, description: String, patterns: List[Patte
 object PatternLanguage {
   private val all = LazyCache {
     List(
-      ("plm", "A PLM pattern language for Telecom Operators")
+      ("plm", "a plm pattern language for telecommunication operators")
     ).map(p => {
       (p._1, new PatternLanguage(p._1, p._2, Pattern.all(p._1)))
     }).toMap

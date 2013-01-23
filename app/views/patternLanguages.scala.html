@@ -1,4 +1,4 @@
-@()(implicit request : Request[Any])
+@(language: PatternLanguage)(implicit request: Request[Any])
 
 @import tags._
 
@@ -6,8 +6,48 @@
 
     <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
         <div class="container">
-            <h1>Pattern</h1>
-            <p class="lead">Pattern language overview</p>
+            <h1>Patterns</h1>
+            <p class="lead">introduction to our pattern languages</p>
         </div>
     </header>
+
+    <div class="container">
+        <div class="row">
+            <section>
+                <div class="featurette span12">
+                    <img class="featurette-image pull-right img-circle" src='@routes.Assets.at("img/patterns/plm.jpg")' width="200" height="200" alt="plm">
+
+                    <h2 class="featurette-heading">
+                        <span class="muted">a</span> plm <span class="muted">pattern language</span>
+                    </h2>
+                    <p class="lead">
+                        explore our <a href="/patterns/plm">product lifecycle pattern language for telecommunication operators</a> with patterns like
+                        @Html(language.patterns.map(pattern => {
+                            String.format("<a href='%s'>%s</a>", "/patterns/" + language.id + "/" + pattern.id, pattern.title.toLowerCase)
+                        }).take(5).mkString(", "))
+                        and <a href="/patterns/plm">many more</a>...
+                    </p>
+                </div>
+
+            </section>
+        </div>
+        <div class="row">
+            <div class="span12">
+                <div class="page-header">
+                    <h3>About patterns</h3>
+                    <p>a pattern captures a generic principle of design that can be differentiated in each instance to fit a unique situation.</p>
+                </div>
+
+                <p>Have you ever tried changing a habit that you knew wasn't good for you? Perhaps you have tried changing your diet to improve your health (e.g. giving up sugary deserts or smoking), a technique with which you play a sport (e.g. changing your golf swing or your tennis backhand), or giving up a convenience (e.g. cycling to work instead of driving or taking the bus instead of the car)? Changing the things we are used to isn't easy. Changing collective habits and the way we work together with others is even harder, as it involves changes within ourselves, changes within others we work with, changes in interactions between each other, and changes in things we want to produce together. Existing and established practices tend to be wound and woven tightly into the fabric of an organization, and unravelling them can be a very daunting task. Meaningful change occurs when the people collectively go from one way of being to another way of being, and the desire for stability is diminished by a desire for change. What happens when we want to take this level of change to business models?</p>
+
+                <p>Large businesses, such as Banks, Insurance Providers, Airline Operators, Telecom Operators, Logistics Providers, or Automobile Manufacturers, have traditionally grown with stable business models. These stable business models are often challenged by disruptive innovations or regulatory changes. The introduction of disruptive innovations in an industry, such as social lending for Banks and the emergence of Internet Protocol (IP) based communications for Telecom Operators, is usually accompanied by a paradigm shift which requires adoption of new practices. Tempting as it is to understand the new paradigm in terms of an older one, individuals often need to rework their understanding of an industry due deep changes in consumer behaviour, society, and technology. Similarly, the introduction of regulatory changes, such as the introduction of new Health-care insurance regulations for Insurance Providers, require reworking an entire business. Large businesses have traditionally attracted talent on the perception of job security and stability, and asking individuals to replace existing skills with new ones, dismantling existing systems to introduce new ones, or restructuring departments challenges that perception. What can we do to take this to practice?</p>
+
+                <p>We believe businesses should be built for change rather than being built to last. This means that businesses should speak a new language which embraces continuous change as a new way of being. Re-organizations should not be marketed as the last great re-organization, but should exist as a continuous process where employees are constantly learning new things, applying best practices, adopting good practices, and experimenting with emergent practices. These practices are documented in the form of a pattern language. Pattern languages, which were originally conceived by Christopher Alexander as a means of describing design practices within architecture, can be used to represent the knowledge required for change in a large enterprise. This is done by understanding the prevalent forces in a specific type of business, such as a Telecom Operator, and finding positive solutions or patterns that balance those forces.</p>
+
+
+                <p>If we want to build organizations for lasting change, we need to bring them to life. According to Christopher Alexander, structures come to life when the patterns of space support the patterns of events that want to go on there. We do this by seeing the pattern of events as the collection of stories that exist about the business. In these stories we identify the prevalent forces, and the forces can be resolved by patterns and solutions that balance those forces.</p>
+            </div>
+        </div>
+    </div>
+
 }
