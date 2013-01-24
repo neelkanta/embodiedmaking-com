@@ -11,7 +11,7 @@
         <div class="container">
             <h1>Sign in</h1>
 
-            <p class="lead">enjoy our full content and participate</p>
+            <p class="lead">enjoy our full content</p>
         </div>
     </header>
 
@@ -32,7 +32,7 @@
                         <div class="alert alert-error">@msg</div>
                     }
 
-                    <p>It is only possible to sign in using a LinkedIn account</p>
+                    <p>By <a href="/authenticate/linkedin">signing in using your Linkedin account</a> you agree to the <a href="http://creativecommons.org/licenses/by-sa/3.0/">creative commons licence</a> under which we share our content.</p>
 
                     @defining( Registry.providers.all.values.filter( _.id != UsernamePassword) ) { externalProviders =>
                         @if( externalProviders.size > 0 ) {
