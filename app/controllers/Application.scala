@@ -14,6 +14,10 @@ object Application extends Controller with SecureSocial {
     Ok(views.html.ventures()).withSession(storeUri(request))
   }
 
+  def venture(id: String) = UserAwareAction { implicit request =>
+    Ok(views.html.venture(Venture.get(id))).withSession(storeUri(request))
+  }
+
   def method = UserAwareAction { implicit request =>
     Ok(views.html.method(MethodSection.all())).withSession(storeUri(request))
   }

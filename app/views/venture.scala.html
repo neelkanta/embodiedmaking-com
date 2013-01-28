@@ -1,0 +1,23 @@
+@(venture: Venture)(implicit request: Request[Any])
+
+@import util.Random._
+
+@main(venture.name) {
+    <header class="jumbotron subhead" xmlns="http://www.w3.org/1999/html">
+        <div class="container">
+            <h1>@venture.name</h1>
+            <p class="lead">@venture.description</p>
+        </div>
+    </header>
+
+    <div class="container">
+        <div class="row span12">
+            <section>
+                <blockquote>
+                    <p>@venture.stories(nextInt(venture.stories.length))</p>
+                </blockquote>
+                to be continued...
+            </section>
+        </div>
+    </div>
+}
