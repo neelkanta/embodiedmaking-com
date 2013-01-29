@@ -1,0 +1,5 @@
+image                      license                                         source
+
+/patterns/plm.jpg          http://www.morguefile.com/license/morguefile    http://www.morguefile.com/archive/display/610544
+/carousel/patterns.jpg     http://www.morguefile.com/license/morguefile    http://www.morguefile.com/archive/display/129151
+/carousel/participate.jpg  http://www.morguefile.com/license/morguefile    http://www.morguefile.com/archive/display/709081

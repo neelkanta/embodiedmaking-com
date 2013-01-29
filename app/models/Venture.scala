@@ -4,7 +4,7 @@ case class Venture(id: String, name: String, description: String, stories: List[
 
 object Venture {
   def get(id: String) : Venture = {
-    return new Venture("fruent", "Fruent", "Your working day is starting and ending fruently...",
+    return new Venture("fruent", "Fruent", "an online space for small shops we love",
       List(
         "I have a small business, and I would like my customers to know my opening and closing times easily. I often have to go out for a little while, and when I do, I shut the store for a few moments. I would like my customers to know that I am out for a short while, and that I will be back soon! I would like to maintain this in 1 simple place, and I would like my other solutions on the web, like my webshop, to get this information.",
         "All these different branches of the supermarket have different opening times. I would like to know the opening times of their different branches without spending too much time trying to scour and search the content on some corporate website.",

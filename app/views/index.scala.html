@@ -6,33 +6,56 @@
 <div id="myCarousel" class="carousel slide">
     <!-- Carousel items -->
     <div class="carousel-inner">
-        @if(!SecureSocial.currentUser.isDefined) {
-        <div class="item">
-            <img src='@routes.Assets.at("img/carousel/participate.jpg")' alt="Participate image">
-
-            <div class="container">
-                <div class="carousel-caption">
-                    <h1>Sign in to participate</h1>
-
-                    <p class="lead">We believe in an open approach to our innovations. Like to help us solve real problems? Discuss on our ideas.</p>
-                    <a class="btn btn-large btn-primary" href="/authenticate/linkedin">Sign in</a>
-                </div>
-            </div>
-        </div>
-        }
-
         <div class="active item">
-            <img src='@routes.Assets.at("img/carousel/method.jpg")' alt="Method image">
+            <img src='@routes.Assets.at("img/carousel/method.jpg")' alt="Method">
 
             <div class="container">
                 <div class="carousel-caption">
-                    <h1>Explore our method</h1>
-
-                    <p class="lead">We approach design challenges using our Embodied making method.</p>
-                    <a class="btn btn-large btn-primary" href="@{routes.Application.method()}">Method overview</a>
+                    <h1>No nonse design</h1>
+                    <p class="lead">Embodied making is an action research approach that requires participation, engagement and reflection.</p>
+                    <a class="btn btn-large btn-primary" href="@{routes.Application.method()}">Our method &raquo;</a>
                 </div>
             </div>
         </div>
+
+        <div class="item">
+            <img src='@routes.Assets.at("img/carousel/patterns.png")' alt="Patterns">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Effective talk</h1>
+                    <p class="lead">Patterns capture a generic principle of design that can be differentiated in each instance to fit a unique situation.</p>
+                    <a class="btn btn-large btn-primary" href="@{routes.Application.patternsOverview()}">Our patterns &raquo;</a>
+                </div>
+            </div>
+        </div>
+
+        <div class="item">
+            <img src='@routes.Assets.at("img/carousel/ventures.jpg")' alt="Ventures">
+
+            <div class="container">
+                <div class="carousel-caption">
+                    <h1>Focused ideas</h1>
+                    <p class="lead">Our ventures capture ways to disrupt current business models with hard needed, profound changes.</p>
+                    <a class="btn btn-large btn-primary" href="@{routes.Application.ventures()}">Our ventures &raquo;</a>
+                </div>
+            </div>
+        </div>
+
+        @if(!SecureSocial.currentUser.isDefined) {
+            <div class="item">
+                <img src='@routes.Assets.at("img/carousel/participate.png")' alt="Participate">
+
+                <div class="container">
+                    <div class="carousel-caption">
+                        <h1>Participate</h1>
+
+                        <p class="lead">By signing in using your Linkedin account</a> you agree to the under which we share our content.</p>
+                        <a class="btn btn-large btn-primary" href="/authenticate/linkedin">Sign in &raquo;</a>
+                    </div>
+                </div>
+            </div>
+        }
 
     </div>
         <!-- Carousel nav -->
@@ -62,8 +85,6 @@
                         changed!</p>
                     <small>Rosannah Pat, mother</small>
                 </blockquote>
-                <p>InTouch keeps your contacts always up to date by allowing ownership your own
-                    data.</p>
 
                 <p><a href="@{routes.Application.ventures()}" class="btn">View details &raquo;</a></p>
             </div>
@@ -80,7 +101,6 @@
                         expectation</p>
                     <small>Asenneth Fryderyk, shopkeeper</small>
                 </blockquote>
-                <p>Fruent shows all information about your physical shop.</p>
 
                 <p><a href="@{routes.Application.venture("fruent")}" class="btn">View details &raquo;</a></p>
             </div>
@@ -98,7 +118,6 @@
                         meets my needs.</p>
                     <small>Rajiv Vasanta, student</small>
                 </blockquote>
-                <p>Carmindz has the best selection of second-hand cars in India!</p>
 
                 <p><a href="@{routes.Application.ventures()}" class="btn">View details &raquo;</a></p>
             </div>

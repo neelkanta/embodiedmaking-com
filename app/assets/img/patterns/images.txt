@@ -1,4 +1,0 @@
-image       license                                         source
-
-plm.jpg     http://www.morguefile.com/license/morguefile    http://www.morguefile.com/archive/display/610544
-

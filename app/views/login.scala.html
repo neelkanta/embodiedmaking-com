@@ -32,7 +32,7 @@
                         <div class="alert alert-error">@msg</div>
                     }
 
-                    <p>By <a href="/authenticate/linkedin">signing in using your Linkedin account</a> you agree to the <a href="http://creativecommons.org/licenses/by-sa/3.0/">creative commons licence</a> under which we share our content.</p>
+                    <p>By <a href="/authenticate/linkedin">signing in using your Linkedin account</a> you agree to the <a href="http://creativecommons.org/licenses/by-sa/3.0/">creative commons license</a> under which we share our content.</p>
 
                     @defining( Registry.providers.all.values.filter( _.id != UsernamePassword) ) { externalProviders =>
                         @if( externalProviders.size > 0 ) {
