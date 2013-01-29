@@ -8,14 +8,14 @@ import com.sun.syndication.feed.synd.{SyndEntry, SyndFeed}
 import scala.collection.JavaConversions._
 
 import play.api.Play.current
-import play.api.Play
+import play.api.{Configuration, Play}
 
 case class RecentUpdate(title: String, date: LocalDateTime)
 
 object RecentUpdate {
-  // TODO [AK] Add caching
-  def all(): List[RecentUpdate] = {
-    val url: URL = new URL(Play.application.configuration.getString("venturesite.recentUpdateSource").get)
+  private val recentUpdates: List[RecentUpdate] = {
+    val configuration: Configuration = Play.application.configuration
+    val url: URL = new URL(configuration.getString("venturesite.recentUpdates.source").get)
     val urlConnection: URLConnection = url.openConnection()
 
     val input: SyndFeedInput = new SyndFeedInput()
@@ -25,11 +25,13 @@ object RecentUpdate {
       val feed: SyndFeed = input.build(reader)
       val entries: List[SyndEntry] = feed.getEntries.toList.asInstanceOf[List[SyndEntry]]
 
-      entries.take(5).map(entry => {
+      entries.take(configuration.getInt("venturesite.recentUpdates.count").getOrElse(6)).map(entry => {
         new RecentUpdate(entry.getTitle, new LocalDateTime(entry.getUpdatedDate))
       })
     } finally {
       reader.close()
     }
   }
+
+  def all(): List[RecentUpdate] = recentUpdates
 }
