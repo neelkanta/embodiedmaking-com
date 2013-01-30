@@ -18,6 +18,8 @@ living-data-everywhere
 living-prototypes
 low-walled-town-communities
 many-products-coexist
+meaningful-user-identity
+more-and-more-events
 participating-customer-demographic
 plant-in-a-single-garden
 product-markers
