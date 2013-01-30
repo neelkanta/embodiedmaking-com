@@ -7,3 +7,5 @@ A product instance, or a product as a customer experiences it, is realized throu
 Therefore make product instances exist integrally where they have knowledge of the components that realize them, and conversely, the components that realize them have knowledge of the product instances that reside within them. Instances are aware when they are unfulfilled, and are capable of being fixed individually. Make it possible for instances to have individual and unique behaviour, and for customers to have their unique situations reflected in the system. When systems aren't capable of enabling unique behaviour for instances, utilize proxies for in systems with that capability.
 
 Use the Language for product instances to reflect product instances and the customer's situation and use the same Language for product instances to interpret the customer's unique situation and install base. If the customer is experiencing problems with their product, permit customer agents to Change it with confidence. Enable Product markers that describe the product instance's performance, costs, and efficiency.
+
+Instances
