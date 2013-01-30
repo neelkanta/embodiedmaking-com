@@ -8,4 +8,4 @@ Therefore some Products need to know about other Products, and when they need to
 
 The Three Product Champions exhibit their products at the Town Well, advertising the information their product can offer other Products. They consult the Few Skilled Gardeners about the sort of information other products in which other products might be interested. Aware and Integral Instances generate events which are persisted in a discoverable Event Store. By using Living Data Everywhere, the co-existence of products can be tested before they are launched.
 
-co-existence of products
+co-existence of products,many products that co-exist
