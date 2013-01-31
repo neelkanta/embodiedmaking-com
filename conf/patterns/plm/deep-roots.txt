@@ -1,6 +1,6 @@
 Deep roots|3
 
-Understand Deep roots for what they are. Untangle them with caution. In a limited portfolio, they knit the land. In a diversified portfolio, they stiffle it.
+Understand Deep roots for what they are. Untangle them with caution. In small portfolios, they knit the land. In a diversified portfolio, they stiffle it.
 
 Stable products that have grown over time tend to have a lot of implementation complexity which can span several applications. Each application can have complex business rules, which in turn have complex integration with other applications. Due to the lack of automated testing, considerable manual testing effort has been expended to make these products stable. Manual processes and workarounds often exist to counter the products computational limitations, and this knowledge tends to be well-documented to ensure stable product operation.
 
