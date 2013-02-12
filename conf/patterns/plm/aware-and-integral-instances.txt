@@ -8,4 +8,3 @@ Therefore make product instances exist integrally where they have knowledge of t
 
 Use the Language for product instances to reflect product instances and the customer's situation and use the same Language for product instances to interpret the customer's unique situation and install base. If the customer is experiencing problems with their product, permit customer agents to Change it with confidence. Enable Product markers that describe the product instance's performance, costs, and efficiency.
 
-Instances
