@@ -21,6 +21,9 @@ GET     /patterns/:language/:id     controllers.Application.pattern(language: St
 # Contact page
 GET     /contact                    controllers.Application.contact
 
+# Privacy policy
+GET     /privacy                    controllers.Application.privacy
+
 # SecureSocial Login page
 GET     /login                      securesocial.controllers.LoginPage.login
 GET     /logout                     securesocial.controllers.LoginPage.logout

@@ -43,6 +43,10 @@ object Application extends Controller with SecureSocial {
     Ok(views.html.contact()).withSession(storeUri(request))
   }
 
+  def privacy = UserAwareAction { implicit request =>
+    Ok(views.html.privacy()).withSession(storeUri(request))
+  }
+
   private def storeUri(request: Request[Any]) : Session = {
     request.session + (SecureSocial.OriginalUrlKey -> request.uri)
   }
