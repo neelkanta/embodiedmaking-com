@@ -7,7 +7,7 @@ import securesocial.core.SecureSocial
 object Application extends Controller with SecureSocial {
 
   def index = UserAwareAction { implicit request =>
-    Ok(views.html.index(RecentUpdate.all()))
+    Ok(views.html.index())
   }
 
   def ventures = UserAwareAction { implicit request =>

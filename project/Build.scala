@@ -8,8 +8,7 @@ object ApplicationBuild extends Build {
     val appVersion      = "1.0-SNAPSHOT"
 
     val appDependencies = Seq(
-      "securesocial" % "securesocial_2.9.1" % "2.0.8",
-      "rome" % "rome" % "1.0"
+      "securesocial" % "securesocial_2.9.1" % "2.0.8"
     )
 
     val main = PlayProject(appName, appVersion, appDependencies, mainLang = SCALA).settings(
