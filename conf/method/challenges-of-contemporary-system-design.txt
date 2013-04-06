@@ -1,6 +1,6 @@
 challenges-of-contemporary-system-design-1
 
-Today more than ever before, we are surrounded by systems, formal and informal, that define the quality of our lives. We encounter them in our workplaces, in our homes, on our vacations, and within our families. We encounter them from the moment we wake to the moment we sleep, and their pervasive nature steers the courses of our lives.
+Today more than ever before, we are surrounded by systems, both formal and informal, that define the quality of our lives. We encounter them in our workplaces, in our homes, on our vacations, and within our families. We encounter them from the moment we wake to the moment we sleep, and their pervasive nature steers the courses of our lives.
 
 The proliferation of computer systems requires that we understand the effect of technology on our lives in order to balance our own abilities with that of machines. Establishing processes, systems, and automation has become increasingly easier through improvements in technology, making it readily possible for their over-application.
 
