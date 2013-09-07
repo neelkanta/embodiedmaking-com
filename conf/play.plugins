@@ -1,3 +1,6 @@
+9994:securesocial.core.DefaultAuthenticatorStore
+9995:securesocial.core.DefaultIdGenerator
+9997:securesocial.controllers.DefaultTemplatesPlugin
 9998:views.auth.AuthViews
 9999:service.InMemoryUserService
-10000:securesocial.core.providers.LinkedInProvider
+10003:securesocial.core.providers.LinkedInProvider

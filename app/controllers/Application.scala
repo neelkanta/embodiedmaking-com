@@ -38,7 +38,7 @@ object Application extends Controller with SecureSocial {
     Ok(views.html.patterns(PatternLanguage.get(language))).withSession(storeUri(request))
   }
 
-  def pattern(language: String, id: String) = SecuredAction { implicit request =>
+  def pattern(language: String, id: String) = UserAwareAction { implicit request =>
     val patternLanguage: PatternLanguage = PatternLanguage.get(language)
     Ok(views.html.pattern(patternLanguage, patternLanguage.getPattern(id))).withSession(storeUri(request))
   }
