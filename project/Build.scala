@@ -1,6 +1,7 @@
 import sbt._
 import Keys._
 import PlayProject._
+import play.Project._
 
 object ApplicationBuild extends Build {
 
@@ -8,11 +9,11 @@ object ApplicationBuild extends Build {
     val appVersion      = "1.0-SNAPSHOT"
 
     val appDependencies = Seq(
-      "securesocial" % "securesocial_2.9.1" % "2.0.8"
+      "securesocial" % "securesocial_2.10" % "2.1.1"
     )
 
-    val main = PlayProject(appName, appVersion, appDependencies, mainLang = SCALA).settings(
-      resolvers += Resolver.url("SecureSocial Repository", url("http://securesocial.ws/repository/releases/"))(Resolver.ivyStylePatterns)
+	val main = play.Project(appName, appVersion, appDependencies).settings(
+      resolvers += Resolver.url("sbt-plugin-snapshots", url("http://repo.scala-sbt.org/scalasbt/sbt-plugin-releases/"))(Resolver.ivyStylePatterns)
     )
 
 }

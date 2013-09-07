@@ -5,7 +5,7 @@
  * you may not use this file except in compliance with the License.
  * You may obtain a copy of the License at
  *
- * http://www.apache.org/licenses/LICENSE-2.0
+ *     http://www.apache.org/licenses/LICENSE-2.0
  *
  * Unless required by applicable law or agreed to in writing, software
  * distributed under the License is distributed on an "AS IS" BASIS,
@@ -19,29 +19,39 @@ package service
 import play.api.{Logger, Application}
 import securesocial.core._
 import securesocial.core.providers.Token
-import securesocial.core.UserId
+import securesocial.core.IdentityId
 
-// TODO [AK] This is just a sample and not suitable for a production environment since it stores everything in memory.
+
+/**
+ * A Sample In Memory user service in Scala
+ *
+ * IMPORTANT: This is just a sample and not suitable for a production environment since
+ * it stores everything in memory.
+ */
 class InMemoryUserService(application: Application) extends UserServicePlugin(application) {
   private var users = Map[String, Identity]()
   private var tokens = Map[String, Token]()
 
-  def find(id: UserId) = {
-    if (Logger.isDebugEnabled) {
+  def find(id: IdentityId): Option[Identity] = {
+    if ( Logger.isDebugEnabled ) {
       Logger.debug("users = %s".format(users))
     }
-    users.get(id.id + id.providerId)
+    users.get(id.userId + id.providerId)
   }
 
   def findByEmailAndProvider(email: String, providerId: String): Option[Identity] = {
-    if (Logger.isDebugEnabled) {
+    if ( Logger.isDebugEnabled ) {
       Logger.debug("users = %s".format(users))
     }
-    users.values.find(u => u.email.map(e => e == email && u.id.providerId == providerId).getOrElse(false))
+    users.values.find( u => u.email.map( e => e == email && u.identityId.providerId == providerId).getOrElse(false))
   }
 
-  def save(user: Identity) {
-    users = users + (user.id.id + user.id.providerId -> user)
+  def save(user: Identity): Identity = {
+    users = users + (user.identityId.userId + user.identityId.providerId -> user)
+    // this sample returns the same user object, but you could return an instance of your own class
+    // here as long as it implements the Identity trait. This will allow you to use your own class in the protected
+    // actions and event callbacks. The same goes for the find(id: UserId) method.
+    user
   }
 
   def save(token: Token) {
