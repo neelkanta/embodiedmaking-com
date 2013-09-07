@@ -13,6 +13,9 @@ GET     /ventures/:id               controllers.Application.venture(id: String)
 GET     /method                     controllers.Application.method
 GET     /method/:id                 controllers.Application.methodSection(id: String)
 
+# Method page
+GET     /business-elements          controllers.Application.businessElements
+
 # Patterns page
 GET     /patterns                   controllers.Application.patternsOverview
 GET     /patterns/:language         controllers.Application.patterns(language: String)

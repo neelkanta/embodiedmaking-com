@@ -26,6 +26,10 @@ object Application extends Controller with SecureSocial {
     Ok(views.html.methodSection(MethodSection.all(), MethodSection.get(id), MethodSlide.all(id))).withSession(storeUri(request))
   }
 
+  def businessElements() = UserAwareAction { implicit request =>
+    Ok(views.html.businessElements()).withSession(storeUri(request))
+  }
+
   def patternsOverview = UserAwareAction { implicit request =>
     Ok(views.html.patternLanguages(PatternLanguage.get("plm"))).withSession(storeUri(request))
   }
