@@ -9,7 +9,9 @@ continuous-harvesting
 decide-by-matching
 declarative-component-dependencies
 deep-roots
+distributed-customer-care
 events-everywhere
+everyone's-business
 exotic-plants
 few-skilled-gardeners
 fortified-town
