@@ -6,6 +6,7 @@ clear-withering-products
 configurability-inv-complexity
 constant-circulation
 continuous-harvesting
+customer's-own-products
 decide-by-matching
 declarative-component-dependencies
 deep-roots
