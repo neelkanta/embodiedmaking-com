@@ -1,5 +1,6 @@
 aware-instances
 change-it-with-confidence
+change-history
 classic-lines
 clear-withering-products
 configurability-inv-complexity
