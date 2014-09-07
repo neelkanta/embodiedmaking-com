@@ -14,6 +14,7 @@ few-skilled-gardeners
 fortified-town
 growth-supports
 interdisciplinary-expertise
+integral technology stack
 language-for-product-instances
 living-data-everywhere
 living-prototypes
@@ -22,6 +23,7 @@ many-products-coexist
 meaningful-user-identities
 participating-customer-demographic
 plant-in-a-single-garden
+preprovisioned-frequents
 product-markers
 productpedia
 pruning-products
