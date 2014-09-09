@@ -17,7 +17,6 @@ exotic-plants
 few-skilled-gardeners
 fortified-town
 growth-supports
-have-one-just-like-mine
 interdisciplinary-expertise
 integral technology stack
 language-for-product-instances
@@ -26,6 +25,7 @@ living-prototypes
 low-walled-town-communities
 many-products-coexist
 meaningful-user-identities
+one-just-like-that-one
 participating-customer-demographic
 plant-in-a-single-garden
 preprovisioned-frequents
