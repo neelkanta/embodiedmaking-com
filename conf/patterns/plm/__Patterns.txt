@@ -23,10 +23,10 @@ integral technology stack
 language-for-product-instances
 living-data-everywhere
 living-prototypes
-living-directories
 low-walled-town-communities
 many-products-coexist
 meaningful-user-identities
+multi-criteria-directories
 one-just-like-that-one
 participating-customer-demographic
 plant-in-a-single-garden
