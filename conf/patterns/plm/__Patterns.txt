@@ -41,7 +41,7 @@ signature-aromas
 specify-to-operationalize
 temporary-splint
 themed-areas
-threaded-organization-views
+threaded-organization-directories
 three-product-champions
 town-well
 trusted-circles
