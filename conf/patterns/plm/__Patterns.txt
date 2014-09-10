@@ -23,6 +23,7 @@ integral technology stack
 language-for-product-instances
 living-data-everywhere
 living-prototypes
+living-directories
 low-walled-town-communities
 many-products-coexist
 meaningful-user-identities
@@ -41,7 +42,6 @@ signature-aromas
 specify-to-operationalize
 temporary-splint
 themed-areas
-threaded-organization-directories
 three-product-champions
 town-well
 trusted-circles
