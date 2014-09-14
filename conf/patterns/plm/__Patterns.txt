@@ -37,7 +37,7 @@ productpedia
 provider-porting
 pruning-products
 recast-moulds
-repurpose-equipment
+repurpose-infrastructure
 ringed-growth
 several-prototypical-configurations
 shade-from-others
