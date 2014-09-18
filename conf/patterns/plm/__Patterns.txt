@@ -42,6 +42,7 @@ recast-moulds
 recruit-keystones
 repurpose-infrastructure
 ringed-growth
+sensemaking
 several-prototypical-configurations
 shade-from-others
 signature-aromas
