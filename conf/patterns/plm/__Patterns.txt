@@ -30,6 +30,7 @@ low-walled-town-communities
 many-products-coexist
 meaningful-names-and-identities
 multi-criteria-directories
+nurture-keystones
 one-just-like-that-one
 participating-customer-demographic
 piecemeal-provisioning
@@ -41,7 +42,6 @@ provider-porting
 pruning-products
 real-time-usage
 recast-moulds
-recruit-keystones
 repurpose-infrastructure
 ringed-growth
 rhythmic-sensemaking-spaces
