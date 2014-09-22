@@ -28,8 +28,7 @@ living-data-everywhere
 living-prototypes
 low-walled-town-communities
 many-products-coexist
-meaningful-user-identities
-meaningful-application-names
+meaningful-names-and-identities
 multi-criteria-directories
 one-just-like-that-one
 participating-customer-demographic
