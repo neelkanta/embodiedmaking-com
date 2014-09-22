@@ -54,5 +54,5 @@ themed-areas
 three-product-champions
 town-well
 trusted-circles
-usage-transparency-as-it-occurs
+usage-view-as-it-occurs
 whole-town-participates
