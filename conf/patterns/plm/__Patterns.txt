@@ -40,7 +40,7 @@ product-markers
 productpedia
 provider-porting
 pruning-products
-real-time-usage
+real-time-pricing
 recast-moulds
 repurpose-infrastructure
 ringed-growth
@@ -54,4 +54,5 @@ themed-areas
 three-product-champions
 town-well
 trusted-circles
+usage-transparency-as-it-occurs
 whole-town-participates
