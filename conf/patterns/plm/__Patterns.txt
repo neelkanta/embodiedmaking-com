@@ -40,7 +40,7 @@ product-markers
 productpedia
 provider-porting
 pruning-products
-real-time-pricing
+real-time-offers
 recast-moulds
 repurpose-infrastructure
 ringed-growth
