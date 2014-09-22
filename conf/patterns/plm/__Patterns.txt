@@ -55,4 +55,5 @@ three-product-champions
 town-well
 trusted-circles
 usage-view-as-it-occurs
+visible-assists
 whole-town-participates
