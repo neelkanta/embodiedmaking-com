@@ -1,6 +1,5 @@
 adapting-with-life
 aware-instances
-base-currency-of-our-own
 change-history
 changeable-by-many
 classic-lines
@@ -32,6 +31,7 @@ meaningful-names-and-identities
 multi-criteria-directories
 nurture-keystones
 one-just-like-that-one
+own-base-currency
 participating-customer-demographic
 piecemeal-provisioning
 plant-in-a-single-garden
