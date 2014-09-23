@@ -12,6 +12,7 @@ decide-by-matching
 declarative-component-dependencies
 deep-roots
 distributed-customer-care
+enrichment-through-interaction (data to knowledge)
 events-everywhere
 everyone's-business
 exotic-plants
@@ -21,7 +22,6 @@ growth-supports
 infinite-varietals
 interdisciplinary-expertise
 integral technology stack
-knowledge-mining
 language-for-product-instances
 legacy-agents
 living-data-everywhere
