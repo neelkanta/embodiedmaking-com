@@ -35,6 +35,7 @@ own-base-currency
 participating-customer-demographic
 piecemeal-provisioning
 plant-in-a-single-garden
+position-possibility
 preprovisioned-frequents
 product-markers
 productpedia
