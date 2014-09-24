@@ -1,0 +1,3 @@
+Change History|3
+
+Changes and the reasons for changes in Products, Customers, Services, and Infrastructure are always remembered, and changes can be retrospectively interpreted and understood.
