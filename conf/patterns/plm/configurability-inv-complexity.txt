@@ -1,4 +1,4 @@
-Configuration inverse to its complexity|3
+Configuration inverse to its complexity|4
 
 If a product has a few configurable options, configure using a proprietary language. If a product is highly configurable, configure using source code.
 
