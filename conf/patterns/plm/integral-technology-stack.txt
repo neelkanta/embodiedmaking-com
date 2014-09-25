@@ -1,0 +1,3 @@
+Integral Technology Stack|2
+
+In an all-IP network, Business and Operations Support are all software applications that operate from a single virtualized core.
