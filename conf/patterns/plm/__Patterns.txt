@@ -54,6 +54,7 @@ temporary-splint
 themed-areas
 three-product-champions
 town-well
+trusted-advisor
 trusted-circles
 usage-view-as-it-occurs
 visible-assists
