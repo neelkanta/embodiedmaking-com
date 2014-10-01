@@ -1,4 +1,4 @@
-Meaningful User Identities|2
+Meaningful Names and Identities|2
 
 Using Mobile Subscriber Identities (MSISDN) or Directory Numbers will change with the emergence of IP technology, giving way to meaningful identities.
 
