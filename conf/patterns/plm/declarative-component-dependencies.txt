@@ -1,3 +1,0 @@
-Declarative component dependencies|1
-
-Products have standardized metadata to describe the components used to realize them.
