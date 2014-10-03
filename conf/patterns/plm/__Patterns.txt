@@ -4,14 +4,13 @@ change-history
 changeable-by-many
 classic-lines
 clear-withering-products
-components-balance-own-feasibility
+components-balance-themselves
 configurability-inv-complexity
 constant-circulation
 continuous-harvesting
 customers-create-their-own
 customers-of-customers
 decide-by-matching
-declarative-component-dependencies
 deep-roots
 everyone-cares
 events-everywhere
