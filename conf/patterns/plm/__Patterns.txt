@@ -4,6 +4,7 @@ change-history
 changeable-by-many
 classic-lines
 clear-withering-products
+components-decide-own-feasibility
 configurability-inv-complexity
 constant-circulation
 continuous-harvesting
