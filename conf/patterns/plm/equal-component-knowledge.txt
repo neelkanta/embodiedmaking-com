@@ -1,3 +1,0 @@
-Equal Component Knowledge|2
-
-Products have standardized metadata to describe the components used to realize them.

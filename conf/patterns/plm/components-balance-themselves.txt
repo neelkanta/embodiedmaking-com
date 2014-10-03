@@ -1,0 +1,3 @@
+Components balance themselves|2
+
+Components are aware of their relationships with other components and the products and services they realize through a standard language. They are aware of their own feasibility in terms of capacity, quality, and cost to realize products and services in any moment.
