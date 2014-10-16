@@ -19,6 +19,7 @@ exotic-plants
 few-skilled-gardeners
 fortified-town
 growth-supports
+hardy-perennials
 infinite-varietals
 interdisciplinary-expertise
 integral technology stack
