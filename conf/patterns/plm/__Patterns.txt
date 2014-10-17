@@ -63,3 +63,4 @@ trusted-advisor
 usage-view-as-it-occurs
 visible-assists
 whole-town-participates
+working-alongside
