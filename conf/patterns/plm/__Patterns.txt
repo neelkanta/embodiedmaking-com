@@ -16,7 +16,6 @@ everyone-cares
 events-everywhere
 everyone's-business
 exotic-plants
-feast-on-our-own-food
 few-skilled-gardeners
 fortified-town
 growth-supports
@@ -25,6 +24,7 @@ infinite-varietals
 interdisciplinary-expertise
 integral technology stack
 irrigation-channels
+kitchen-garden
 language-for-product-instances
 legacy-agents
 living-data-everywhere
