@@ -2,6 +2,7 @@ adapting-with-life
 aware-instances
 change-history
 changeable-by-many
+charge-upon-consumption
 classic-lines
 clear-withering-products
 components-balance-themselves
@@ -17,21 +18,26 @@ events-everywhere
 everyone's-business
 exotic-plants
 few-skilled-gardeners
+flower-shows
 fortified-town
 growth-supports
 hardy-perennials
 infinite-varietals
+infrastructure-coalition
 interdisciplinary-expertise
 integral technology stack
 irrigation-channels
 kitchen-garden
 language-for-product-instances
 legacy-agents
+lifelong-educators
+lifestyle-vaults
 living-data-everywhere
 living-prototypes
 low-walled-town-communities
 many-products-coexist
 meaningful-names-and-identities
+meritocracy-of-resellers
 multi-criteria-directories
 nurture-keystones
 one-just-like-that-one
@@ -48,10 +54,12 @@ provider-porting
 pruning-products
 real-time-offers
 recast-moulds
+recurring-reorganizations
 repurpose-infrastructure
 reside-with-invasives
 ringed-growth
 rhythmic-sensemaking-spaces
+self-service-surrogates
 several-prototypical-configurations
 shade-from-others
 signature-aromas
@@ -63,5 +71,6 @@ town-well
 trusted-advisor
 usage-view-as-it-occurs
 visible-assists
+wheelbarrow-planter
 whole-town-participates
 working-alongside
