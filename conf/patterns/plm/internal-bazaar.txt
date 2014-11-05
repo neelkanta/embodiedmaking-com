@@ -1,0 +1,3 @@
+Internal Store|2|Operations
+
+Employees have access to an internal store where they can offer or try out solutions for work, home, and spaces in between.
