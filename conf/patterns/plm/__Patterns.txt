@@ -5,6 +5,7 @@ changeable-by-many
 charge-upon-consumption
 classic-lines
 clear-withering-products
+coherent-workspace
 components-balance-themselves
 configurability-inv-complexity
 constant-circulation
@@ -16,6 +17,7 @@ deep-roots
 everyone-cares
 events-everywhere
 everyone's-business
+experience-store
 exotic-plants
 few-skilled-gardeners
 flower-shows
@@ -26,6 +28,7 @@ infinite-varietals
 infrastructure-coalition
 interdisciplinary-expertise
 integral technology stack
+internal-bazaar
 irrigation-channels
 kitchen-garden
 language-for-product-instances
