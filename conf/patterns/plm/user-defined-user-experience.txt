@@ -1,0 +1,3 @@
+User defined User Experience|2|Component Behavior
+
+Users are easily able to define their own user experiences by combining Elements of User Information
