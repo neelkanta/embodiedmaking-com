@@ -71,7 +71,7 @@ temporary-splint
 themed-areas
 three-product-champions
 town-well
-travelling-journeymen
+travelling-artisan
 trusted-advisor
 usage-view-as-it-occurs
 user-defined-user-experience
