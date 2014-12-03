@@ -1,4 +1,4 @@
 containers-over-controls
 disassemble-to-reassemble
-cherry-picking-mimicry
+cherry-picked-mimicry
 salvation-by-vendor
