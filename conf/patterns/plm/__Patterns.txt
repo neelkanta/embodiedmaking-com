@@ -1,6 +1,5 @@
 adapting-with-life
 aware-instances
-buried-treasures
 change-history
 changeable-by-many
 charge-upon-consumption
@@ -26,6 +25,7 @@ fortified-town
 growth-supports
 hardy-perennials
 heedful-excavations
+hidden-treasures
 infinite-varietals
 infrastructure-coalition
 interdisciplinary-expertise
