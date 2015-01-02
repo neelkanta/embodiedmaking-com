@@ -33,6 +33,7 @@ integral technology stack
 internal-bazaar
 irrigation-channels
 kitchen-garden
+knowledge-custodians
 language-for-product-instances
 legacy-agents
 lifelong-educators
