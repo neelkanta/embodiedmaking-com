@@ -45,6 +45,7 @@ many-products-coexist
 meaningful-names-and-identities
 meritocracy-of-resellers
 multi-criteria-directories
+nested-wallets
 nurture-keystones
 one-just-like-that-one
 own-base-currency
